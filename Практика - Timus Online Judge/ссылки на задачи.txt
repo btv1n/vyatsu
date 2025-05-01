@@ -1,0 +1,15 @@
+№1002 - Телефонные номера:           https://acm.timus.ru/problem.aspx?space=1&num=1002
+№1072 - Маршрутизация:               https://acm.timus.ru/problem.aspx?space=1&num=1072
+№1107 - Складская задача:            https://acm.timus.ru/problem.aspx?space=1&num=1107
+№1142 - Отношения:                   https://acm.timus.ru/problem.aspx?space=1&num=1142
+№1212 - Морской бой:                 https://acm.timus.ru/problem.aspx?space=1&num=1212
+№1247 - Проверка последовательности: https://acm.timus.ru/problem.aspx?space=1&num=1247
+№1282 - Дерево игры:                 https://acm.timus.ru/problem.aspx?space=1&num=1282
+№1317 - Град:                        https://acm.timus.ru/problem.aspx?space=1&num=1317
+№1352 - Простые числа Мерсенна:      https://acm.timus.ru/problem.aspx?space=1&num=1352
+№1422 - Светлячки:                   https://acm.timus.ru/problem.aspx?space=1&num=1422
+№1457 - Теплотрасса:                 https://acm.timus.ru/problem.aspx?space=1&num=1457
+№1562 - Ананас:                      https://acm.timus.ru/problem.aspx?space=1&num=1562
+№1737 - Мнемоника и палиндромы 3:    https://acm.timus.ru/problem.aspx?space=1&num=1737
+№1877 - Велосипедные коды:           https://acm.timus.ru/problem.aspx?space=1&num=1877
+№1982 - План электрификации:         https://acm.timus.ru/problem.aspx?space=1&num=1982

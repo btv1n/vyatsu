@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\bin\Debug\Organizer.exe.config
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\bin\Debug\Organizer.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\bin\Debug\Organizer.pdb
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.MainForm.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №8\Lab_8\Organizer\obj\Debug\Organizer.pdb

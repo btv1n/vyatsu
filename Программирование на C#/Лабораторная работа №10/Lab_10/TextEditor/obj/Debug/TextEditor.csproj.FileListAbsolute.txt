@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\bin\Debug\TextEditor.exe.config
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\bin\Debug\TextEditor.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\bin\Debug\TextEditor.pdb
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.MainForm.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №10\Lab_10\TextEditor\obj\Debug\TextEditor.pdb

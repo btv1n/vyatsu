@@ -1,0 +1,7 @@
+C:\Users\jammi\Загрузки\Lab_1\Task_1\obj\Debug\Task_1.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Lab_1\Task_1\obj\Debug\Task_1.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Lab_1\Task_1\bin\Debug\Task_1.exe.config
+C:\Users\jammi\Загрузки\Lab_1\Task_1\bin\Debug\Task_1.exe
+C:\Users\jammi\Загрузки\Lab_1\Task_1\bin\Debug\Task_1.pdb
+C:\Users\jammi\Загрузки\Lab_1\Task_1\obj\Debug\Task_1.exe
+C:\Users\jammi\Загрузки\Lab_1\Task_1\obj\Debug\Task_1.pdb

@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Lab_2\Task_1\bin\Debug\Task_2.1.exe.config
+C:\Users\jammi\Загрузки\Lab_2\Task_1\bin\Debug\Task_2.1.exe
+C:\Users\jammi\Загрузки\Lab_2\Task_1\bin\Debug\Task_2.1.pdb
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_1.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_2._1.Form1.resources
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_2._1.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_1.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_1.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_2.1.exe
+C:\Users\jammi\Загрузки\Lab_2\Task_1\obj\Debug\Task_2.1.pdb

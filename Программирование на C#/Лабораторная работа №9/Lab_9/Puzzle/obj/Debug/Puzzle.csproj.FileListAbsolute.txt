@@ -1,0 +1,11 @@
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\bin\Debug\Puzzle.exe.config
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\bin\Debug\Puzzle.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\bin\Debug\Puzzle.pdb
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.Form1.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.Form2.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №9\Lab_9\Puzzle\obj\Debug\Puzzle.pdb

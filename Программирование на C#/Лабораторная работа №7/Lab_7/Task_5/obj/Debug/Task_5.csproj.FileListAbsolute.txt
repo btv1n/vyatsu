@@ -1,0 +1,7 @@
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\bin\Debug\Task_5.exe.config
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\bin\Debug\Task_5.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\bin\Debug\Task_5.pdb
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\obj\Debug\Task_5.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\obj\Debug\Task_5.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\obj\Debug\Task_5.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №7\Lab_7\Task_5\obj\Debug\Task_5.pdb

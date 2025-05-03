@@ -1,0 +1,7 @@
+C:\Users\jammi\Загрузки\Lab_1\Task_9\bin\Debug\Task_9.exe.config
+C:\Users\jammi\Загрузки\Lab_1\Task_9\bin\Debug\Task_9.exe
+C:\Users\jammi\Загрузки\Lab_1\Task_9\bin\Debug\Task_9.pdb
+C:\Users\jammi\Загрузки\Lab_1\Task_9\obj\Debug\Task_9.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Lab_1\Task_9\obj\Debug\Task_9.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Lab_1\Task_9\obj\Debug\Task_9.exe
+C:\Users\jammi\Загрузки\Lab_1\Task_9\obj\Debug\Task_9.pdb

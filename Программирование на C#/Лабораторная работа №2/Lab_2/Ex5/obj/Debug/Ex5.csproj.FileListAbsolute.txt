@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Lab_2\Ex5\bin\Debug\Ex5.exe.config
+C:\Users\jammi\Загрузки\Lab_2\Ex5\bin\Debug\Ex5.exe
+C:\Users\jammi\Загрузки\Lab_2\Ex5\bin\Debug\Ex5.pdb
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.Form1.resources
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.exe
+C:\Users\jammi\Загрузки\Lab_2\Ex5\obj\Debug\Ex5.pdb

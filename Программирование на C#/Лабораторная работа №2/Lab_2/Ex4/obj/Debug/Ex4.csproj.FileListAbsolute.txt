@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Lab_2\Ex4\bin\Debug\Ex4.exe.config
+C:\Users\jammi\Загрузки\Lab_2\Ex4\bin\Debug\Ex4.exe
+C:\Users\jammi\Загрузки\Lab_2\Ex4\bin\Debug\Ex4.pdb
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.Form1.resources
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.exe
+C:\Users\jammi\Загрузки\Lab_2\Ex4\obj\Debug\Ex4.pdb

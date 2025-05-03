@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Lab_2\Ex6\bin\Debug\Ex6.exe.config
+C:\Users\jammi\Загрузки\Lab_2\Ex6\bin\Debug\Ex6.exe
+C:\Users\jammi\Загрузки\Lab_2\Ex6\bin\Debug\Ex6.pdb
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.Form1.resources
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.exe
+C:\Users\jammi\Загрузки\Lab_2\Ex6\obj\Debug\Ex6.pdb

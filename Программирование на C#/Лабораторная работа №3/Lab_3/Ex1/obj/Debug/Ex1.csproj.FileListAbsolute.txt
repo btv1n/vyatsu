@@ -1,0 +1,10 @@
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\bin\Debug\Ex1.exe.config
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\bin\Debug\Ex1.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\bin\Debug\Ex1.pdb
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.csproj.AssemblyReference.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.Form1.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.Properties.Resources.resources
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.csproj.GenerateResource.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.csproj.CoreCompileInputs.cache
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.exe
+C:\Users\jammi\Загрузки\Telegram Desktop\С#\Программирование на C#\Лабораторная работа №3\Lab_3\Ex1\obj\Debug\Ex1.pdb

@@ -1,0 +1,106 @@
+\documentclass[a4paper,12pt]{extarticle}
+
+% Для поддержки русского языка
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{geometry} % Простой способ задавать поля
+	\geometry{top=20mm}
+	\geometry{bottom=20mm}
+	\geometry{left=20mm}
+	\geometry{right=20mm}
+
+\usepackage{indentfirst} % Отступ первого абзаца
+
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % Формулы
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+\usepackage{hyperref}
+\hypersetup{
+  unicode=true,
+  colorlinks=true,
+  linkcolor=blue,
+  citecolor=teal,
+  urlcolor=magenta
+}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{xcolor}
+\definecolor{mygreen}{RGB}{0,160,0}
+
+\author{Татаринова А.Г.}
+\title{Лабораторная работа 1}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\text{Цель}: познакомиться с работой протокола HTTP, используя инструмент разработчика в браузере и утилиту curl. Получить навыки по созданию HTML страниц с CSS.
+\begin{itemize}
+    \item Лабораторная работа сдается преподавателю лично студентом.
+    \item Сдача лабораторной работы заключается в том, что студент отвечает на вопросы преподавателя по заданиям, а также показывает и комментирует результаты самостоятельно выполненных заданий.
+    \item Всё что написано в заданиях «изучите, узнайте и прочее» нужно изучить и для себя зафиксировать, так как преподаватель может спросить об этом при сдаче лабораторной работы.
+\end{itemize}
+
+\section{Протокол HTTP}
+Изучите материал \url{https://practicum.yandex.ru/blog/chto-takoe-protokol-http/}.
+\subsection{Задание}
+
+Используя \textbf{руководство по вашему браузеру} и самостоятельную работу с браузером, изучите интерфейс и основные возможности встроенного в ваш браузер \textbf{инструмента разработчика} (обычно вызывается по нажатию клавиши F12). Например, для браузера Google Chrome можно начать изучение с чтения справки \url{https://developer.chrome.com/docs/devtools/overview}, особенно полезны панели "Элементы", "Сеть" и "Консоль".
+
+Выполните на собственных примерах (можно использовать страницу некоторой статьи из Википедии):
+\begin{enumerate}[label=\alph*)]
+  \item Просмотр кода содержимого веб-страницы (HTML, CSS и JS).
+  \item Поиск кода, который соответствует элементу на странице.
+  \item Отследите HTTP-трафик страницы во время и после ее загрузки.
+  \item Просмотр обнаруженных ошибок в коде страницы.
+  \item Просмотр времени загрузки страницы.
+  \item Просмотр версии протокола http, которая использовалась при получении веб\-ресурса.
+\end{enumerate}
+
+
+\subsection{Задание}
+
+Изучите материал об утилите curl, используя, например, \url{https://cloud.vk.com/blog/10-komand-curl-kotorye-vam-sleduet-znat}.
+
+\begin{enumerate}[label=\alph*)]
+  \item Используя curl, получите заголовки HTTP-ответа при запросе страницы Википедии со статьей о городе Кирове.
+  \item Используя curl, скачайте локально на компьютер файл pdf с расписанием вашей группы с сайта университета ВятГУ. По какому пути скачивается файл и как этот путь можно изменить?
+\end{enumerate}
+
+\subsection{Задание}
+Познакомьтесь с библиотекой requests (язык python), которая позволяет выполнять HTTP-
+запросы. Для этого прочитайте статью (\url{https://education.yandex.ru/handbook/python/article/modul-
+requests}) из курса «Основы Python» (данный ресурс используйте для знакомства с языком Python).
+
+Устанавливать библиотеку не требуется, \textbf{при необходимости обратитесь к преподавателю}.
+\begin{enumerate}[label=\alph*)]
+  \item Разберите и выполните пример из статьи по работе с API сервиса Яндекс Карты.
+  \item Измените координаты в запросе на месте, где бы вы хотели побывать и получите новое изображение карты. Сохраните изображение.
+  \item Выполните HTTP-запрос из предыдущего задания в браузере. Каков будет результат?
+\end{enumerate}
+
+\begin{leftbar}
+  После выполнения запроса через requests возвращается объект, у которого есть атрибуты: \textbf{status\_code} - возвращает код выполнения HTTP-запроса (при успехе равен 200), \textbf{content} и \textbf{text} - отвечают за содержимое тела HTTP-ответа.
+\end{leftbar}
+
+\section{Язык HTML}
+Изучите материалы:
+\begin{enumerate}
+  \item \url{https://practicum.yandex.ru/blog/zachem-nuzhen-html/}
+  \item \url{https://practicum.yandex.ru/blog/chto-takoe-css/}
+\end{enumerate}
+
+\subsection{Задание}
+Познакомьтесь с основами HTML и CSS, пройдя и выполнив задания \underline{без регистрации} первых \textbf{11 ГЛАВ} вводного курса \url{https://htmlacademy.ru/courses/297/run/1}.
+
+Для отчета \textbf{сохраните} скриншоты выполняемых заданий. Главы устроены так, что сначала идёт теория, затем нужно "Перейти к заданию" и выполнить задания, которые располагаются в нижней правой части. Выполненные задания отмечаются \textcolor{mygreen}{зелёным цветом}.
+
+\subsection{Задание}
+Пройдите тест \url{https://use-web.ru/testpractice.php?action=html}.
+
+Для отчета сохраните скриншот с результатом.
+
+\end{document}

@@ -1,0 +1,87 @@
+/* Обнуление базовых отступов*/
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #beb5b5;
+    color: #333; /*цвет для текста*/
+}
+
+/* Центрирует контейнер */
+.container {
+    max-width: 900px;
+    margin: 0 auto; /*внешний отступ*/
+    padding: 20px; /*внутренний отступ*/
+    text-align: center; /*выравнивание текста по центру*/
+}
+
+/* Описание */
+.description {
+    margin-bottom: 20px; /*внешний отступ снизу*/
+    text-align: justify; /*выравнивае по ширине, оптимально для длинного абзаца текста*/
+    line-height: 1.6; /*отступ между предложениями*/
+    background: #fff; /*цвет блока*/
+    padding: 15px;
+    border-radius: 8px; /*скругление углов блока*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /*тень блока*/
+}
+
+/* Изображение устройства */
+.image-block img {
+    border: 3px solid #48ff00;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+/* Горизонтальный список характеристик */
+.horizontal-list {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    
+}
+
+.horizontal-list-ul li {
+    display: inline-block; /*Отображать как строчный элемент.block-каждый li как цельный блок*/
+    margin-right: 5px; /* Отступ */
+    border: 1px solid #000; /* Рамка вокруг текста*/
+    padding: 3px; /*Поля вокруг текста*/
+    border-radius: 10px;
+    white-space: nowrap; /*Запрещает перенос внутри самого блока*/
+    margin-bottom: 10px; /*Отступ снизу блока*/
+    cursor: pointer; /*Меняет указатель*/
+}
+
+/* Стили для скрытого блока */
+.hidden-block {
+  border-radius: 8px;
+  background: #eef;
+}
+
+/* https://developer.mozilla.org/ru/docs/Web/HTML/Reference/Elements/details */
+details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 0.5em 0.5em 0; /*0.5em - половина размера шрифта элемента*/
+}
+
+summary {
+  font-weight: bold;
+  margin: -0.5em -0.5em 0;
+  padding: 0.5em;
+}
+
+details[open] {
+  padding: 0.5em;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 0.5em;
+}
+
+/* Выделение текста */
+.highlight {
+    background-color: yellow;
+}
+/*  */

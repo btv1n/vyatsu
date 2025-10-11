@@ -1,0 +1,118 @@
+html, body {
+	height: 100%; /*нужно для flex-высоты*/
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /*страница на всю высоту экрана*/
+
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+
+	/* height: 100%;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;  100% высоты окна  */
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	flex: 1; /* чтобы wrapper занимал всё оставшееся место */
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 1 auto;  /* растягивает контент, чтобы footer прижался вниз */
+}
+
+main {
+	flex: 1; /*растягивает контент в main, чтобы footer переместился к низу станицы*/
+}
+
+header {
+	text-align: center;
+	margin: 20px 0px 40px 0px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+
+}
+
+.products-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 250px; /*ширина карточек*/
+	background: #C0C0C0;
+	border: 2px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px black;
+	padding: 10px;
+}
+
+.products-item img {
+	width: 100%; /*картинка занимает все возможное для нее пространство*/
+	border-radius: 8px;
+}
+
+.products-item h3 {
+	font-weight: bold;
+	margin: 10px 0px 10px 0px;
+}
+
+.products-item p {
+	color: #696969;
+	font-weight: bold;
+	margin: 0px 0px 10px 0px
+}
+
+.products-item button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 20px 0px 10px 0px;
+	margin: 30px 0px 0px 0px
+}
+
+footer p {
+	margin: 0px 0px 10px 0px;
+}
+
+footer a {
+	color: white;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}

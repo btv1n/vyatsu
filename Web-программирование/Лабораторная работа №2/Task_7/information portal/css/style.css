@@ -1,0 +1,158 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+	color: #222;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-areas:
+		"header header"
+		"sidebar content"
+		"footer footer";
+	/* первая — фиксированная ширина 280px  для сайдбара);
+       вторая — занимает всё оставшееся пространство, 1fr = 1 доля свободного места. */
+	grid-template-columns: 280px 1fr;
+	/* первая — автоматическая высота, хедер,
+       вторая — занимает всё доступное пространство
+       третья — автоматическая высота, футер, по размеру содержимого*/
+	grid-template-rows: auto 1fr auto;
+	min-height: 100vh;
+	gap: 20px;
+	/* align-items: start; лишает элементы возможности растягиватся по высоте */
+}
+
+header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content-news { grid-area: content; }
+footer { grid-area: footer; }
+
+header {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	background-color: #222;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+.page-name {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+nav {
+	display: grid;
+	/* Горизонтальное выравнивание одного элемента внутри ячейчки, end - прижать к правому краю*/
+	justify-self: end;
+	/* Задаёт направление автоматического размещения элементов в Grid.
+	grid-auto-flow: column - элементы идут по столбцам (сверху вниз, вправо)
+	grid-auto-flow: row - элементы идут по строкам (слева направо, сверху вниз)*/
+	grid-auto-flow: column;
+	gap: 15px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.sidebar {
+	/* background-color: gray; */
+	background-color: #f9f9f9;
+	border-radius: 2px;
+	padding: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+
+	/*width: 220px; фиксирует ширину;*/
+    /* max-height: 200px; 
+	min-width: 200px; */
+	width: 290px; /* widht = grid-templates-columns-30px*/
+	height: 200px;
+	margin-left: 20px;
+
+    /* overflow-y: auto; прокрутка при переполнении */
+}
+
+.sidebar h2 {
+	margin-bottom: 10px;
+}
+
+.categories li {
+	margin-bottom: 8px;
+	margin-left: 30px;
+}
+
+.categories a {
+	text-decoration: underline;
+	color: blue;
+}
+
+.content-news {
+	padding: 0 20px;
+	max-width: 100%; /* чтобы не вылезало за экран */
+}
+
+.cards {
+	display: grid;
+	/* Запись автоматически размещает элементы по горизонтали - определяет количество колонок и их ширину 
+	repeat( ) - повторение для всех колонок
+	auto-fill - создает столько колонок, сколько поместится в строке при определенной ширине контейнера
+	minmax(250px, 1fr)
+	250px - минимальная ширина колонки
+	1fr - максимальная ширина колонки
+	*/
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /*ширина карточек*/
+	/* min-height: 240px; */
+	/* height: 240px; фиксированная высота ломает footer */
+	gap: 10px;
+}
+
+.card {
+    /* background-color: gray; */
+	background-color: #f9f9f9;
+	border-radius: 2px;
+	padding: 20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	height: 200px; /*устанавливает фиксированную высоту карточек*/
+}
+
+.card h3 {
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+
+footer {
+	display: grid;
+	background-color:  #222;
+	color: #fff;
+	padding: 10px 20px;
+	/* auto-fit - создавать столько колонок, сколько влезет в контейнер и удалять пустые, если карточек меньше */
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 10px;
+	justify-items: center;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/*
+auto-fill	Заполняет строку ячейками фиксированной ширины, даже если они пустые. Оставляет пустые “слоты” в сетке
+auto-fit	Подгоняет колонки под количество элементов	Убирает пустые слоты, растягивая оставшиеся карточки
+auto-fill — «заполни строку местами под карточки»
+auto-fit — «подстрой карточки под ширину контейнера»
+*/

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Результаты курсовой работы</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <h1>Сравнительный анализ внешних сортировок</h1>
+      <!-- # - ссылки на заголовки страницы -->
+      <nav>
+        <a href="#about">ОПИСАНИЕ</a>
+        <a href="#results">РЕЗУЛЬТАТЫ</a>
+        <a href="#conclusion">ВЫВОД</a>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <h3>Методы сортировки</h3>
+      <ul>
+        <li>Многопроходное двустороннее слияние</li>
+        <li>Естественное слияние</li>
+        <li>Каскадное слияние</li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <section id="about">
+        <h2>Описание программы</h2>
+        <p>
+          Программа предназначена для сравнительного анализа алгоритмов внешней сортировки.
+          Пользователь задаёт количество чисел и границы генерации, после чего выполняется
+          сортировка выбранным методом.
+        </p>
+        <img src="images/interface_program.png" alt="Интерфейс программы" />
+      </section>
+
+      <section id="results">
+        <h2>Результаты</h2>
+        <table>
+          <tr>
+            <th>Метод</th>
+            <th>Количество сравнений</th>
+            <th>Время выполнения в секундах</th>
+          </tr>
+          <tr>
+            <td>Многопроходное двустороннее слияние</td>
+            <td>135620</td>
+            <td>0.079</td>
+          </tr>
+          <tr>
+            <td>Естественное слияние</td>
+            <td>119804</td>
+            <td>4.26</td>
+          </tr>
+          <tr>
+            <td>Каскадное слияние</td>
+            <td>128619</td>
+            <td>11.05</td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="conclusion">
+        <h2>Вывод</h2>
+        <p>
+          Наиболее эффективным по времени оказался метод многопроходного двустороннего слияния.
+          Однако метод естественного слияния показал меньшее количество сравнений.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Автор: Студент | Курсовая работа</p>
+    </footer>
+  </div>
+</body>
+</html>

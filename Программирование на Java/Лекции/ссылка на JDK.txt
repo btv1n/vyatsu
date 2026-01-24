@@ -1,0 +1,3 @@
+https://jdk.java.net/22/
+
+https://jdk.java.net/java-se-ri/21

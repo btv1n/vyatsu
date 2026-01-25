@@ -1,0 +1,891 @@
+[
+  {
+    "title": "ПРОСТЫЕ ВЕЩИ",
+    "date": "17 октября 19:00",
+    "duration": 70,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2412_48e15a076806e88ee22f4a20cd1b50.jpg"
+  },
+  {
+    "title": "БОГ ЕЗДИТ НА ВЕЛОСИПЕДЕ",
+    "date": "18 октября 18:00",
+    "duration": 80,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/228_576c9aaa136d698e1abeb5a8c8d72c.jpg"
+  },
+  {
+    "title": "БРЕМЕНСКИЕ МУЗЫКАНТЫ",
+    "date": "19 октября 11:00",
+    "duration": 90,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "БРЕМЕНСКИЕ МУЗЫКАНТЫ",
+    "date": "19 октября 14:00",
+    "duration": 90,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "ЗДЕСЬ БЫЛ КАЙ",
+    "date": "21 октября 14:00",
+    "duration": 80,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2420_e9aa4cd7b6292f4755469ebd807580.jpg"
+  },
+  {
+    "title": "ЗДЕСЬ БЫЛ КАЙ",
+    "date": "21 октября 18:00",
+    "duration": 80,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2420_e9aa4cd7b6292f4755469ebd807580.jpg"
+  },
+  {
+    "title": "Я С ТОБОЙ",
+    "date": "22 октября 13:00",
+    "duration": 30,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2458_ec59484e281c37010ca3b5b200aebf.jpg"
+  },
+  {
+    "title": "МАЛЬЧИКИ НЕ ПЛАЧУТ",
+    "date": "22 октября 14:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2439_ad24023be9525af30a5d9a428f1a23.jpg"
+  },
+  {
+    "title": "Я С ТОБОЙ",
+    "date": "22 октября 15:00",
+    "duration": 30,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2458_ec59484e281c37010ca3b5b200aebf.jpg"
+  },
+  {
+    "title": "МАЛЬЧИКИ НЕ ПЛАЧУТ",
+    "date": "22 октября 18:00",
+    "duration": 40,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2439_ad24023be9525af30a5d9a428f1a23.jpg"
+  },
+  {
+    "title": "УДАЧИ, МАРК!",
+    "date": "23 октября 15:00",
+    "duration": 100,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2517_0c6a3809470e7987f124716219c3d8.jpg"
+  },
+  {
+    "title": "РОМЕО И ДЖУЛЬЕТТА",
+    "date": "23 октября 16:00",
+    "duration": 120,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/328_00e35d66421e08d00098c30373ab8d.jpg"
+  },
+  {
+    "title": "РОМЕО И ДЖУЛЬЕТТА",
+    "date": "23 октября 19:00",
+    "duration": 120,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/328_00e35d66421e08d00098c30373ab8d.jpg"
+  },
+  {
+    "title": "УДАЧИ, МАРК!",
+    "date": "23 октября 19:00",
+    "duration": 100,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2517_0c6a3809470e7987f124716219c3d8.jpg"
+  },
+  {
+    "title": "ПРИНЦ И ДОЧЬ ВЕЛИКАНА",
+    "date": "24 октября 14:00",
+    "duration": 50,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/331_1cd143c82b99b7c6ce548de6af69ab.jpg"
+  },
+  {
+    "title": "СКАЗКА О МЁРТВОЙ ЦАРЕВНЕ И СЕМИ БОГАТЫРЯХ",
+    "date": "24 октября 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2481_e2c87e4cf26ac1e2a8418120f50ed6.jpg"
+  },
+  {
+    "title": "ПРИНЦ И ДОЧЬ ВЕЛИКАНА",
+    "date": "24 октября 16:00",
+    "duration": 50,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/331_1cd143c82b99b7c6ce548de6af69ab.jpg"
+  },
+  {
+    "title": "СКАЗКА О МЁРТВОЙ ЦАРЕВНЕ И СЕМИ БОГАТЫРЯХ",
+    "date": "24 октября 18:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2481_e2c87e4cf26ac1e2a8418120f50ed6.jpg"
+  },
+  {
+    "title": "ЗОЛОТЫЕ СТРУНЫ ДОМБРЫ",
+    "date": "25 октября 14:00",
+    "duration": 60,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2487_2a6a00009f2e3e762888cfc6e3f4f4.jpg"
+  },
+  {
+    "title": "ЗОЛОТЫЕ СТРУНЫ ДОМБРЫ",
+    "date": "25 октября 18:00",
+    "duration": 60,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2487_2a6a00009f2e3e762888cfc6e3f4f4.jpg"
+  },
+  {
+    "title": "СОЛНЫШКО В ЛАДОШКАХ",
+    "date": "26 октября 11:00",
+    "duration": 50,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/334_b0cf6a7b2523a619a8830dbb68cd3b.jpg"
+  },
+  {
+    "title": "СОЛНЫШКО В ЛАДОШКАХ",
+    "date": "26 октября 13:00",
+    "duration": 50,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/334_b0cf6a7b2523a619a8830dbb68cd3b.jpg"
+  },
+  {
+    "title": "ДЖИНЖИК",
+    "date": "26 октября 15:00",
+    "duration": 50,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2502_dadc9a47c7557f5faacd54f3ff6864.jpg"
+  },
+  {
+    "title": "ДЖИНЖИК",
+    "date": "26 октября 18:00",
+    "duration": 50,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2502_dadc9a47c7557f5faacd54f3ff6864.jpg"
+  },
+  {
+    "title": "СЕРАЯ ШЕЙКА",
+    "date": "27 октября 11:00",
+    "duration": 50,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/336_fff4d8e81bfb8c38a2eae485c71575.jpg"
+  },
+  {
+    "title": "СЕРАЯ ШЕЙКА",
+    "date": "27 октября 13:00",
+    "duration": 50,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/336_fff4d8e81bfb8c38a2eae485c71575.jpg"
+  },
+  {
+    "title": "ПЛИХ И ПЛЮХ",
+    "date": "27 октября 14:00",
+    "duration": 90,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/337_78490a26c41d8804df507abd5a98b8.jpg"
+  },
+  {
+    "title": "ПЛИХ И ПЛЮХ",
+    "date": "27 октября 17:00",
+    "duration": 90,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/337_78490a26c41d8804df507abd5a98b8.jpg"
+  },
+  {
+    "title": "ИВАН - БОГАТЫРСКИЙ СЫН",
+    "date": "29 октября 11:00",
+    "duration": 90,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "БОЛЬШАЯ ЛЮБОВЬ РОБИН ГУДА",
+    "date": "29 октября 18:00",
+    "duration": 100,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/252_f16dbae48716c2a9b162d87f5084f2.jpg"
+  },
+  {
+    "title": "«БАРЫШНЯ-КРЕСТЬЯНКА» (ВЫЕЗДНОЙ СПЕКТАКЛЬ)",
+    "date": "30 октября 16:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/318_56119bfe670479770510d28cf82544.jpg"
+  },
+  {
+    "title": "«БАРЫШНЯ-КРЕСТЬЯНКА» (ВЫЕЗДНОЙ СПЕКТАКЛЬ)",
+    "date": "30 октября 18:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/318_56119bfe670479770510d28cf82544.jpg"
+  },
+  {
+    "title": "КАШТАНКА",
+    "date": "31 октября 11:00",
+    "duration": 100,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/313_2b844e3f02bf5be32ea5cb628efd81.jpg"
+  },
+  {
+    "title": "ПОСЛЕДНИЕ ДНИ БАЗАРОВА",
+    "date": "31 октября 18:00",
+    "duration": 90,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/269_8f6cdcbd0d58f263cb3aabe3a11fa3.jpg"
+  },
+  {
+    "title": "ЗАПИСКИ ЮНОГО ВРАЧА",
+    "date": "01 ноября 18:00",
+    "duration": 90,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/268_8787e5b897fda8f9a6cc2557c9f1a6.jpg"
+  },
+  {
+    "title": "ОСТРОВ СОКРОВИЩ",
+    "date": "02 ноября 11:00",
+    "duration": 90,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/67_0ae6a93a65cf82e23c9c660e96b99b.jpg"
+  },
+  {
+    "title": "ЛЕГЕНДА О ВИТБЕРГЕ",
+    "date": "02 ноября 18:00",
+    "duration": 90,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/322_3f9cd49b9fe2cafb86c9ff54955e8a.jpg"
+  },
+  {
+    "title": "ЗОЛУШКА",
+    "date": "03 ноября 11:00",
+    "duration": 95,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/1_b48e29e48a797f656eb999e8532770.jpg"
+  },
+  {
+    "title": "РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.",
+    "date": "09 ноября 16:00",
+    "duration": 80,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/339_67d93d9fc2af321bf2a00d089df4ab.jpg"
+  },
+  {
+    "title": "РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.",
+    "date": "10 ноября 16:00",
+    "duration": 80,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/339_67d93d9fc2af321bf2a00d089df4ab.jpg"
+  },
+  {
+    "title": "ОБЫКНОВЕННОЕ ЧУДО",
+    "date": "15 ноября 14:00",
+    "duration": 135,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "ОБЫКНОВЕННОЕ ЧУДО",
+    "date": "15 ноября 18:00",
+    "duration": 135,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.",
+    "date": "16 ноября 13:00",
+    "duration": 80,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/339_67d93d9fc2af321bf2a00d089df4ab.jpg"
+  },
+  {
+    "title": "РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.",
+    "date": "16 ноября 18:00",
+    "duration": 80,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/339_67d93d9fc2af321bf2a00d089df4ab.jpg"
+  },
+  {
+    "title": "РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.",
+    "date": "17 ноября 13:00",
+    "duration": 80,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/339_67d93d9fc2af321bf2a00d089df4ab.jpg"
+  },
+  {
+    "title": "РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.",
+    "date": "17 ноября 18:00",
+    "duration": 100,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/339_67d93d9fc2af321bf2a00d089df4ab.jpg"
+  },
+  {
+    "title": "ПРОЩАНИЕ С МАТЁРОЙ",
+    "date": "20 ноября 19:00",
+    "duration": 85,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/317_a392f65a87de968e9698e60f5ac1f2.jpg"
+  },
+  {
+    "title": "ЭТО Я ТЕБЕ УХО ОТКУСИЛА!",
+    "date": "21 ноября 19:00",
+    "duration": 85,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/1490_af32a7c94623ca01e51970ff53d1e6.jpg"
+  },
+  {
+    "title": "БУРЯ",
+    "date": "22 ноября 18:00",
+    "duration": 70,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/283_3cf86cd9f1a4b55404e795e96a4f67.jpg"
+  },
+  {
+    "title": "КАШТАНКА",
+    "date": "23 ноября 11:00",
+    "duration": 100,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/313_2b844e3f02bf5be32ea5cb628efd81.jpg"
+  },
+  {
+    "title": "ПОСЛЕДНИЕ ДНИ БАЗАРОВА",
+    "date": "23 ноября 18:00",
+    "duration": 80,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/269_8f6cdcbd0d58f263cb3aabe3a11fa3.jpg"
+  },
+  {
+    "title": "БРЕМЕНСКИЕ МУЗЫКАНТЫ",
+    "date": "24 ноября 11:00",
+    "duration": 85,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "БРЕМЕНСКИЕ МУЗЫКАНТЫ",
+    "date": "24 ноября 14:00",
+    "duration": 90,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/editor/photo/837_5d854841c11d866ea4b7e0c64b81ee.jpg"
+  },
+  {
+    "title": "ВЕЧЕР ОДНОАКТНЫХ ХОРЕОГРАФИЧЕСКИХ СПЕКТАКЛЕЙ",
+    "date": "26 ноября 18:00",
+    "duration": 100,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/325_a3cf8e96d8a4ecfc75bb4a7f658569.jpg"
+  },
+  {
+    "title": "ФЕСТИВАЛЬ СОВРЕМЕННОГО ТАНЦА «3DВИГ»",
+    "date": "27 ноября 18:00",
+    "duration": 100,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/144_7018a81cdf60f9769a11ac1887f796.jpg"
+  },
+  {
+    "title": "ПРОСТЫЕ ВЕЩИ",
+    "date": "28 ноября 19:00",
+    "duration": 70,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/2412_48e15a076806e88ee22f4a20cd1b50.jpg"
+  },
+  {
+    "title": "ЗАПИСКИ ЮНОГО ВРАЧА",
+    "date": "29 ноября 18:00",
+    "duration": 110,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/268_8787e5b897fda8f9a6cc2557c9f1a6.jpg"
+  },
+  {
+    "title": "КОШКИН ДОМ",
+    "date": "30 ноября 11:00",
+    "duration": 45,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/photo/1696_2c0cc1e7039660ad303473fa00de12.jpg"
+  },
+  {
+    "title": "БОГ ЕЗДИТ НА ВЕЛОСИПЕДЕ",
+    "date": "30 ноября 18:00",
+    "duration": 80,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://ekvus-kirov.ru/media/show/228_576c9aaa136d698e1abeb5a8c8d72c.jpg"
+  },
+  {
+    "title": "Сказка о потерянном времени",
+    "date": "17 Октябрь 2024 11:00",
+    "duration": 50,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2603_69c2baa25601236ea8f848a8d0ba9d.jpg"
+  },
+  {
+    "title": "Первая любовь",
+    "date": "17 Октябрь 2024 18:30",
+    "duration": 75,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2566_2f49e24ba48ad29aaca14ebd3ee005.jpg"
+  },
+  {
+    "title": "Отдам бывшего в хорошие руки",
+    "date": "17 Октябрь 2024 19:00",
+    "duration": 100,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2570_20a8f338b284d5b0181ff4ddb8eb12.jpg"
+  },
+  {
+    "title": "Дядя Ваня",
+    "date": "18 Октябрь 2024 18:30",
+    "duration": 135,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2536_058fdd0a686051d2c20bb774572301.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "19 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2549_45bab5bd9315f81db2002705e3006d.jpg"
+  },
+  {
+    "title": "Шукшин. Рассказы",
+    "date": "19 Октябрь 2024 17:00",
+    "duration": 140,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2537_033a0218957f88826ae6ddcceab8bb.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "20 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2550_566fae538f3169173838433c5724cf.jpg"
+  },
+  {
+    "title": "Белые ночи",
+    "date": "22 Октябрь 2024 18:30",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2561_65cceeadf71bf9f00da83d15037601.jpg"
+  },
+  {
+    "title": "Судьба человека (Показ в г. Малмыж)",
+    "date": "23 Октябрь 2024 13:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2617_fcc670afb410fd0826604ba0d871a0.jpg"
+  },
+  {
+    "title": "Белые ночи",
+    "date": "23 Октябрь 2024 18:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2562_c216c86cc58e683c571d08e19935f4.jpg"
+  },
+  {
+    "title": "Вечер балета",
+    "date": "23 Октябрь 2024 18:30",
+    "duration": 120,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2569_76b3eda999293c57badb7aaeac9df9.jpg"
+  },
+  {
+    "title": "Судьба человека (Показ в г. Уржум)",
+    "date": "24 Октябрь 2024 13:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2616_4b8e696231874df08d4065c82bd9b0.jpg"
+  },
+  {
+    "title": "Белые ночи",
+    "date": "24 Октябрь 2024 18:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2563_58d212f0e1e44dbfea1e204700d1d1.jpg"
+  },
+  {
+    "title": "Юбилейный вечер Кировской школы балета",
+    "date": "24 Октябрь 2024 18:30",
+    "duration": 120,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2613_b1e72fb8d6504275c2d4c72241ba51.jpg"
+  },
+  {
+    "title": "Семейка Краузе",
+    "date": "25 Октябрь 2024 18:30",
+    "duration": 140,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2540_14df624f3c010fa1dfed8f5506969c.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "26 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2553_7678a045b0b95030c83df302190128.jpg"
+  },
+  {
+    "title": "На всякого мудреца довольно простоты",
+    "date": "26 Октябрь 2024 17:00",
+    "duration": 110,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2554_1a9f22c47bc5a1fd20a683d5cfb187.jpg"
+  },
+  {
+    "title": "Конёк-горбунок",
+    "date": "27 Октябрь 2024 11:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2543_896466055dd1b692172081bfaae463.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "27 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2552_840f1ca0290cdab60bcdde77cd021d.jpg"
+  },
+  {
+    "title": "Не доверяй мужчинам!",
+    "date": "27 Октябрь 2024 17:00",
+    "duration": 140,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2555_3fb0933d5f9b04d605efd6065e6c2e.jpg"
+  },
+  {
+    "title": "Женщины Сергея Есенина, или Любовь хулигана",
+    "date": "29 Октябрь 2024 18:30",
+    "duration": 100,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2544_57c26e819ea58dab59b857ca38a09a.jpg"
+  },
+  {
+    "title": "Свидание на четверых",
+    "date": "30 Октябрь 2024 19:00",
+    "duration": 135,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2571_d369a1a1fc0c967284bf3c05463a16.jpg"
+  },
+  {
+    "title": "#Я_Раскольников",
+    "date": "31 Октябрь 2024 18:30",
+    "duration": 80,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2564_e25dd0baf02dbe82d042056e4593ba.jpg"
+  },
+  {
+    "title": "Хлынов. Сага о городе и его жителях",
+    "date": "01 Октябрь 2024 18:30",
+    "duration": 180,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2577_91a6c8272f00df7065629984564b87.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "02 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2604_4f70cb96b349df39880bcf67fa7145.jpg"
+  },
+  {
+    "title": "Хлынов. Сага о городе и его жителях",
+    "date": "02 Октябрь 2024 17:00",
+    "duration": 180,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2578_71ed1b1e82efc8b0863e6be06d1d72.jpg"
+  },
+  {
+    "title": "Всё можно… или как прожить без взрослых",
+    "date": "03 Октябрь 2024 11:00",
+    "duration": 60,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2579_60d585a547d675ef551bfa7ad770da.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "03 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2605_333fe49056ac09c74d1e01d112d507.jpg"
+  },
+  {
+    "title": "Лекарь поневоле",
+    "date": "03 Октябрь 2024 17:00",
+    "duration": 60,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2580_549c82449c6a214711df337d9eaa14.jpg"
+  },
+  {
+    "title": "Белые ночи",
+    "date": "08 Октябрь 2024 18:30",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2581_46777dabfc7ab114bc5dd2e2d16089.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "09 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2606_3d5fd518d8fd40d81b9933b6e44851.jpg"
+  },
+  {
+    "title": "Белые ночи",
+    "date": "09 Октябрь 2024 17:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2582_14d0f7ab8b5a514bbfa04cdabf25c1.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "10 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2607_23d3e27835f9f841b3695ace4ee994.jpg"
+  },
+  {
+    "title": "Первая любовь",
+    "date": "10 Октябрь 2024 17:00",
+    "duration": 75,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2583_0f3a6ba5c0b343debbc1bde6c8c325.jpg"
+  },
+  {
+    "title": "Первая любовь",
+    "date": "12 Октябрь 2024 18:30",
+    "duration": 75,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2584_ddabdce478896ed907b176a9b671bf.jpg"
+  },
+  {
+    "title": "Уроки французского",
+    "date": "13 Октябрь 2024 18:30",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2585_891cb3d706938fd4dc578b9a034d4a.jpg"
+  },
+  {
+    "title": "Уроки французского",
+    "date": "14 Октябрь 2024 18:30",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2586_5fa8e427f0beb56c7fe3850e86e71e.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "16 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2608_78ebab53b261c57707ffec2ad31b99.jpg"
+  },
+  {
+    "title": "Пиковая дама",
+    "date": "16 Октябрь 2024 17:00",
+    "duration": 165,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2601_8bf8e1ae2937dbe8935265e703983c.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "17 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2609_8dee13d1e7852fa24281b5d103f930.jpg"
+  },
+  {
+    "title": "Пиковая дама",
+    "date": "17 Октябрь 2024 17:00",
+    "duration": 165,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2602_06e4b7ab958cc47f17ca6f6e318aba.jpg"
+  },
+  {
+    "title": "Женщины Сергея Есенина, или Любовь хулигана",
+    "date": "19 Октябрь 2024 15:00",
+    "duration": 100,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2587_bdf45bacd20ce06241fc8c800a4a4f.jpg"
+  },
+  {
+    "title": "Женщины Сергея Есенина, или Любовь хулигана",
+    "date": "19 Октябрь 2024 18:30",
+    "duration": 100,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2588_e74c178ccf2cfe6f4dc37820c4df5e.jpg"
+  },
+  {
+    "title": "#Я_Раскольников",
+    "date": "20 Октябрь 2024 18:30",
+    "duration": 80,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2589_131f6f07912eae70833ba5f3e99147.jpg"
+  },
+  {
+    "title": "Судьба человека",
+    "date": "21 Октябрь 2024 15:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2590_92bd63baa008e181ba9ea1ed5ffc1e.jpg"
+  },
+  {
+    "title": "Судьба человека",
+    "date": "21 Октябрь 2024 18:30",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2591_b0a81c425b292228c741e5695a7f8a.jpg"
+  },
+  {
+    "title": "Дядя Ваня",
+    "date": "22 Октябрь 2024 18:30",
+    "duration": 135,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2592_b9fb7954e756d0fe3c1b27be7ceac8.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "23 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2610_fe9bfc62473d2fbd0aecb2b50a0c1a.jpg"
+  },
+  {
+    "title": "Семейка Краузе",
+    "date": "23 Октябрь 2024 17:00",
+    "duration": 140,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2593_a4c22978e99196c6abdc907ea05089.jpg"
+  },
+  {
+    "title": "Конёк-горбунок",
+    "date": "24 Октябрь 2024 11:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2594_2b4a41e434985d0d32d3925f2b3818.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "24 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2611_94823a7ace433f06462bc28528e00e.jpg"
+  },
+  {
+    "title": "Не доверяй мужчинам!",
+    "date": "24 Октябрь 2024 17:00",
+    "duration": 140,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2595_99be88ec366929f4d688dc9b040d98.jpg"
+  },
+  {
+    "title": "Драма-тур",
+    "date": "25 Октябрь 2024 14:00",
+    "duration": 75,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2612_88d3930c4f1cacd05c5fe953a41412.jpg"
+  },
+  {
+    "title": "Уроки французского",
+    "date": "26 Октябрь 2024 15:00",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2596_7e26e49b84936ec07283daa963830f.jpg"
+  },
+  {
+    "title": "Уроки французского",
+    "date": "26 Октябрь 2024 18:30",
+    "duration": 70,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2597_892c29b9362d5db788e085d1072bb2.jpg"
+  },
+  {
+    "title": "Первая любовь",
+    "date": "27 Октябрь 2024 18:30",
+    "duration": 75,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2598_ea44e3aefbb4aadaff864d2f4b8b3b.jpg"
+  },
+  {
+    "title": "Тайна замка Рейвенскрофт",
+    "date": "29 Октябрь 2024 18:30",
+    "duration": 140,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2599_07c1de07b3f9799fa83a40512db134.jpg"
+  },
+  {
+    "title": "Монарх",
+    "date": "30 Октябрь 2024 17:00",
+    "duration": 170,
+    "ageRestriction": 16,
+    "posterImageUrl": "https://kirovdramteatr.ru/media/afisha/2600_79309faa0408b857dd5ba4868dc1d0.jpg"
+  },
+  {
+    "title": "Цой. Только кино",
+    "date": "18 Октябрь 18:00",
+    "duration": 90,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/performances/Zoy.Tolko kino/coj-afisha-sajt.jpg"
+  },
+  {
+    "title": "Сказка о ёжике и медвежонке",
+    "date": "19 Октябрь 11:00",
+    "duration": 70,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/performances/Skazka o ezhike i medvede/ezh.jpg"
+  },
+  {
+    "title": "История трех поросят",
+    "date": "19 Октябрь 11:00",
+    "duration": 80,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/images/afisha/istoriya-treh-porosyat.jpg"
+  },
+  {
+    "title": "Серебряное копытце",
+    "date": "20 Октябрь 11:00",
+    "duration": 45,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/performances/Serebryanoe kopito/imj7o87or1a.jpg"
+  },
+  {
+    "title": "Терем - Теремок",
+    "date": "20 Октябрь 11:00",
+    "duration": 30,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/images/afisha/teremok.jpg"
+  },
+  {
+    "title": "Ку-би-ки",
+    "date": "23 Октябрь 11:00",
+    "duration": 35,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/images/kubikia-1.jpg"
+  },
+  {
+    "title": "Ку-би-ки",
+    "date": "23 Октябрь 14:00",
+    "duration": 35,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/images/kubikia-1.jpg"
+  },
+  {
+    "title": "Стивен Хокинг. Мир в ореховой скорлупе",
+    "date": "25 Октябрь 18:00",
+    "duration": 50,
+    "ageRestriction": 12,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/performances/Hoking/stivenhockinga-1pechat.jpg"
+  },
+  {
+    "title": "Иван-царевич и Серый волк",
+    "date": "26 Октябрь 11:00",
+    "duration": 60,
+    "ageRestriction": 6,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/performances/Ivan Zarevish/ivancarevichafishaa-1pechat.jpg"
+  },
+  {
+    "title": "Золотой ключик, или Приключения Буратино",
+    "date": "27 Октябрь 11:00",
+    "duration": 55,
+    "ageRestriction": 0,
+    "posterImageUrl": "https://kirovkukla.ru/assets/mgr/performances/Zolotoy kluchik/buratino.jpg"
+  }
+]

@@ -1,0 +1,70 @@
+2025-11-13 22:51:42.428 [main] INFO  Main - Программа запущена.
+2025-11-13 22:51:42.431 [main] DEBUG Main - 1
+2025-11-13 22:51:42.431 [main] ERROR Main - 2
+2025-11-13 22:51:42.431 [main] WARN  Main - 3
+2025-11-13 22:53:53.042 [main] INFO  Main - Программа запущена.
+2025-11-13 22:53:53.045 [main] DEBUG Main - 1
+2025-11-13 22:53:53.045 [main] ERROR Main - 2
+2025-11-13 22:53:53.045 [main] WARN  Main - 3
+2025-11-13 22:53:53.045 [main] INFO  Main - Программа запущена.
+2025-11-13 23:20:11.320 [main] INFO  Main - Программа запущена.
+2025-11-13 23:20:15.126 [main] DEBUG Main - Ввод от пользователя.
+2025-11-13 23:20:23.227 [main] DEBUG Main - Ввод от пользователя.
+2025-11-13 23:20:25.833 [main] DEBUG Main - Ввод от пользователя.
+2025-11-13 23:20:25.834 [main] ERROR Commands.ChangeDirectoryCommand - Ошибка ChangeDirectoryCommand - не директория.
+2025-11-13 23:20:25.843 [main] ERROR Main - Ошибка при выполении handleInput - Не директория.
+2025-11-13 23:20:39.565 [main] DEBUG Main - Ввод от пользователя.
+2025-11-13 23:20:47.739 [main] DEBUG Main - Ввод от пользователя.
+2025-11-13 23:20:47.739 [main] INFO  Commands.RemoveDirectoryCommand - Выполнение delete.
+2025-11-13 23:20:47.740 [main] INFO  Commands.RemoveDirectoryCommand - delete выполнен успешно.
+2025-11-13 23:22:52.909 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-13 23:48:51.162 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-14 00:12:50.617 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-14 00:13:12.273 [main] ERROR Commands.ListCommand - CommandResult - передан неизвестнвый аргумент - -invalid
+2025-11-14 00:17:29.174 [main] ERROR Commands.ChangeDirectoryCommand - Ошибка ChangeDirectoryCommand - не директория.
+2025-11-14 00:17:33.284 [main] ERROR Commands.ChangeDirectoryCommand - Ошибка ChangeDirectoryCommand - путь не указан.
+2025-11-14 00:23:06.573 [main] WARN  Commands.MakeDirectoryCommand - MakeDirectoryCommand - файл или каталог уже существует.
+2025-11-14 00:23:11.659 [main] ERROR Commands.MakeDirectoryCommand - MakeDirectoryCommand - путь не указан.
+2025-11-14 00:28:33.671 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - путь не указан.
+2025-11-14 00:28:33.687 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-14 00:28:33.691 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-14 00:28:33.695 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-14 00:29:08.833 [main] INFO  Commands.RemoveDirectoryCommand - Выполнение delete.
+2025-11-14 00:29:08.836 [main] INFO  Commands.RemoveDirectoryCommand - delete выполнен успешно.
+2025-11-14 10:05:43.545 [main] INFO  Commands.RemoveDirectoryCommand - Выполнение delete.
+2025-11-14 10:05:43.558 [main] INFO  Commands.RemoveDirectoryCommand - delete выполнен успешно.
+2025-11-14 10:06:15.511 [main] INFO  Main - Программа запущена.
+2025-11-14 10:06:19.614 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:06:23.393 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:08:48.470 [main] ERROR Commands.ChangeDirectoryCommand - Ошибка ChangeDirectoryCommand - путь не указан.
+2025-11-14 10:08:48.521 [main] ERROR Commands.ChangeDirectoryCommand - Ошибка ChangeDirectoryCommand - не директория.
+2025-11-14 10:08:48.544 [main] ERROR Commands.ChangeDirectoryCommand - Ошибка ChangeDirectoryCommand - не директория.
+2025-11-14 10:09:20.520 [main] ERROR Commands.ListCommand - CommandResult - передан неизвестнвый аргумент - -invalid
+2025-11-14 10:09:43.700 [main] WARN  Commands.MakeDirectoryCommand - MakeDirectoryCommand - файл или каталог уже существует.
+2025-11-14 10:09:43.761 [main] ERROR Commands.MakeDirectoryCommand - MakeDirectoryCommand - путь не указан.
+2025-11-14 10:09:43.774 [main] ERROR Commands.MakeDirectoryCommand - MakeDirectoryCommand - каталог не был создан.
+2025-11-14 10:10:05.420 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - путь не указан.
+2025-11-14 10:10:13.669 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - не каталог.
+2025-11-14 10:10:22.456 [main] ERROR Commands.RemoveDirectoryCommand - RemoveDirectoryCommand - каталог не существует.
+2025-11-14 10:20:24.602 [main] INFO  Main - Программа запущена.
+2025-11-14 10:20:31.253 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:20:41.987 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:20:55.332 [main] INFO  Main - Программа запущена.
+2025-11-14 10:20:59.013 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:20:59.014 [main] INFO  Commands.HelpCommand - HelpCommand выполнена успешно.
+2025-11-14 10:21:30.796 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:26:10.636 [main] INFO  Main - Программа запущена.
+2025-11-14 10:26:16.152 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 10:26:20.078 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 11:16:07.910 [main] INFO  Main - Программа запущена.
+2025-11-14 11:16:14.008 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 11:16:14.011 [main] INFO  Commands.HelpCommand - HelpCommand выполнена успешно.
+2025-11-14 12:12:13.439 [main] INFO  Main - Программа запущена.
+2025-11-14 12:12:20.790 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 12:12:20.791 [main] INFO  Commands.HelpCommand - HelpCommand выполнена успешно.
+2025-11-14 12:12:42.640 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 12:12:46.883 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 12:12:46.884 [main] INFO  Commands.HelpCommand - HelpCommand выполнена успешно.
+2025-11-14 12:13:00.204 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 12:13:11.257 [main] DEBUG Main - Ввод от пользователя.
+2025-11-14 12:13:11.259 [main] INFO  Commands.HelpCommand - HelpCommand выполнена успешно.

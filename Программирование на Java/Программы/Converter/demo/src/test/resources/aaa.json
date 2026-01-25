@@ -1,0 +1,53 @@
+{
+  "year" : [ {
+    "value" : "1965",
+    "books" : [ {
+      "category" : "Science Fiction",
+      "title" : {
+        "lang" : "en",
+        "value" : "Dune"
+      },
+      "author" : "Frank Herbert",
+      "year" : "1965",
+      "price" : {
+        "currency" : "USD",
+        "value" : "25.00"
+      },
+      "characters" : [ {
+        "name" : "Paul Atreides",
+        "role" : "Protagonist"
+      }, {
+        "name" : "Liet-Kynes",
+        "role" : "Supporting"
+      }, {
+        "name" : "Baron Vladimir Harkonnen",
+        "role" : "Antagonist"
+      } ]
+    } ]
+  }, {
+    "value" : "1997",
+    "books" : [ {
+      "category" : "Fantasy",
+      "title" : {
+        "lang" : "en",
+        "value" : "Harry Potter and the Philosopher's Stone"
+      },
+      "author" : "J.K. Rowling",
+      "year" : "1997",
+      "price" : {
+        "currency" : "USD",
+        "value" : "20.00"
+      },
+      "characters" : [ {
+        "name" : "Harry Potter",
+        "role" : "Protagonist"
+      }, {
+        "name" : "Hermione Granger",
+        "role" : "Supporting"
+      }, {
+        "name" : "Ron Weasley",
+        "role" : "Supporting"
+      } ]
+    } ]
+  } ]
+}

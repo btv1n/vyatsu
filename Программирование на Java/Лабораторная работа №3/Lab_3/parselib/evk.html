@@ -1,0 +1,1598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+ <head>
+  <title>Афиша - Театр на Спасской</title>
+  <meta name="copyright" content="© Театр на Спасской">
+  <meta name="keywords" content="афиша тюз, афиша театра спасской, спектакли театра на спасской, спектакли тюз">
+  <meta name="description" content="Афиша «Театра на Спасской» в городе Кирове. Дата и время показа спектаклей, покупка билетов в театр. Информация о спектаклях, театральных мероприятиях и фестивалях.">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta property="og:image" content="/images/logo.jpg">
+  <script src="/engine/query.js" type="text/javascript"></script>
+  <script src="/engine/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+  <link href="/engine/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="/engine/jquery.maskedinput.js"></script>
+  <script type="text/javascript" src="/engine/jquery.form.js"></script>
+  <script type="text/javascript" src="/engine/lightbox/js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="/engine/lightbox/js/lightbox.js"></script>
+  <link href="/engine/lightbox/css/lightbox.css" rel="stylesheet">
+  <script type="text/javascript">
+	$(document).ready ( function(){
+		$('input[name="code"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="name"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="imya"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="otchestvo"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="phone"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="email"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="pass"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+
+		$('input[name="familia"]').focus(function(){
+			$.get('/randomimage/sk.php?sk=f55111cad42542c99e3ed9c446be6fa6');
+		});
+	});
+</script>
+  <link href="/engine/tsart.style.css" rel="stylesheet" type="text/css">
+  <link href="/engine/style.css?ver=30" rel="stylesheet" type="text/css">
+  <link href="/engine/style_menu.css?ver=7" rel="stylesheet" type="text/css">
+  <script src="/engine/xmlhttp.js" type="text/javascript"></script>
+  <script src="/engine/scripts.js" type="text/javascript"></script>
+  <script async src="https://afisha.ru/w/ticketmanager.js"></script>
+ </head>
+ <body>
+  <!--//// Всплывающие окно отправки сообщений с сайта--> <!--noindex-->
+  <script type="text/javascript">
+
+var resize_alert = 0;
+var scroll_title = 0;
+
+function alert_new3(tupe,title,but_name,param,id)
+{
+	document.getElementById('alert3_content').innerHTML = '';
+
+	if(tupe==1)
+	{
+		document.getElementById('new_alert3').style.display = 'none';
+		document.getElementById('fon3').style.display = 'none';
+		alert_photo = 0;
+		//clearInterval(timerSliderId3);
+	}
+	else
+	{
+		//$('#alert3_content').load('/req/ajax_alert3_page.php?id='+id,function() {alert_size_new3();});
+		document.getElementById('t_title3').innerHTML = title;
+		document.getElementById('new_alert3').style.display = 'block';
+		document.getElementById('fon3').style.display = 'block';
+	}
+
+	scroll_title = 0;
+}
+
+var timer_alert_new3;
+
+function alert_size_new3()
+{
+    if (document.getElementById('fon3').style.display == 'block')
+    {
+		document.getElementById('fon3').style.position = 'fixed';
+		document.getElementById('fon3').style.width = '100%';
+		document.getElementById('fon3').style.height = '100%';
+
+		if (document.documentElement.clientHeight < (document.getElementById('new_alert3').offsetHeight+120))
+		{
+			document.getElementById('new_alert3').style.position = 'absolute';
+			document.getElementById('new_alert3').style.top = document.documentElement.clientHeight / 2 + window.pageYOffset+'px';
+		}
+		else
+		{
+			document.getElementById('new_alert3').style.position = 'fixed';
+			document.getElementById('new_alert3').style.top = '50%';
+		}
+
+		document.getElementById('td_alert_new3').style.width = document.documentElement.clientWidth - 30 + 'px';
+
+
+		document.getElementById('new_alert3').style.left = '50%';
+		document.getElementById('new_alert3').style.margin = '-'+document.getElementById('new_alert3').offsetHeight/2+'px 0 0 -'+(document.getElementById('new_alert3').offsetWidth/2)+'px';
+
+		if (document.getElementById('new_alert3').offsetHeight > document.documentElement.clientHeight)
+		{
+			document.getElementById('new_alert3').style.margin = '-'+(document.getElementById('new_alert3').offsetHeight-150)/2+'px 0 0 -'+(document.getElementById('new_alert3').offsetWidth/2)+'px';
+		}
+
+		var offsetTop = document.getElementById('new_alert3').offsetTop;
+		if (offsetTop < 0)
+		{
+			document.getElementById('new_alert3').style.marginTop = '40px';
+			document.getElementById('new_alert3').style.top = '0px';
+		}
+		if (scroll_title == 0)
+		{
+			var timer_alert_new3 = setTimeout(function() {position_alert_new3(); }, 300);
+		}
+	}
+}
+
+function alert_block3(tupe,title,but_name,param,id,maxwidth)
+{
+	document.getElementById('alert3_content').innerHTML = '';
+	width_screen = 0;
+	height_screen = 0;
+    if (maxwidth == 0) maxwidth = 935;
+	if(tupe==1)
+	{
+		document.getElementById('new_alert3').style.display = 'none';
+		document.getElementById('fon3').style.display = 'none';
+		alert_photo = 0;
+		if (timerSliderId3) clearInterval(timerSliderId3);
+		document.getElementById('new_alert3').style.maxWidth = 'none';
+	}
+	else
+	{
+		if (maxwidth)  document.getElementById('new_alert3').style.maxWidth = maxwidth+'px';
+		$('#alert3_content').load('/req/ajax_alert3_block.php?id='+id,function() {alert_size_new3();});
+		document.getElementById('t_title3').innerHTML = title;
+		document.getElementById('new_alert3').style.display = 'block';
+		document.getElementById('fon3').style.display = 'block';
+	}
+
+	scroll_title = 0;
+}
+
+function alert_plus0(tupe,title,but_name,param,id,maxwidth)
+{
+	document.getElementById('alert3_content').innerHTML = '';
+	width_screen = 0;
+	height_screen = 0;
+    if (maxwidth == 0) maxwidth = 935;
+	if(tupe==1)
+	{
+		document.getElementById('new_alert3').style.display = 'none';
+		document.getElementById('fon3').style.display = 'none';
+		alert_photo = 0;
+		if (timerSliderId3) clearInterval(timerSliderId3);
+		document.getElementById('new_alert3').style.maxWidth = 'none';
+	}
+	else
+	{
+		if (maxwidth)  document.getElementById('new_alert3').style.maxWidth = maxwidth+'px';
+		$('#alert3_content').load('/req/ajax_alert3_plus0.php?id='+id,function() {alert_size_new3();});
+		document.getElementById('t_title3').innerHTML = title;
+		document.getElementById('new_alert3').style.display = 'block';
+		document.getElementById('fon3').style.display = 'block';
+	}
+
+	scroll_title = 0;
+}
+
+function alert_book3(tupe,title,but_name,param,id,maxwidth)
+{
+	document.getElementById('alert3_content').innerHTML = '';
+	width_screen = 0;
+	height_screen = 0;
+    if (maxwidth == 0) maxwidth = 935;
+	if(tupe==1)
+	{
+		document.getElementById('new_alert3').style.display = 'none';
+		document.getElementById('fon3').style.display = 'none';
+		alert_photo = 0;
+		if (timerSliderId3) clearInterval(timerSliderId3);
+		document.getElementById('new_alert3').style.maxWidth = 'none';
+	}
+	else
+	{
+		if (maxwidth)  document.getElementById('new_alert3').style.maxWidth = maxwidth+'px';
+		$('#alert3_content').load('/req/ajax_alert3_book.php?id='+id,function() {alert_size_new3();});
+		document.getElementById('t_title3').innerHTML = title;
+		document.getElementById('new_alert3').style.display = 'block';
+		document.getElementById('fon3').style.display = 'block';
+	}
+
+	scroll_title = 0;
+}
+
+function position_alert_new3() {
+	clearInterval(timer_alert_new3);
+	document.getElementById('fon3').style.width = '100%';
+	document.getElementById('fon3').style.height = '100%';
+	document.getElementById('new_alert3').style.margin = '-'+document.getElementById('new_alert3').offsetHeight/2+'px 0 0 -'+(document.getElementById('new_alert3').offsetWidth/2)+'px';
+	var offsetTop = document.getElementById('new_alert3').offsetTop;
+	var marginTop = document.getElementById('new_alert3').marginTop;
+	if (offsetTop < 0)
+	{
+		document.getElementById('new_alert3').style.marginTop = '40px';
+		document.getElementById('new_alert3').style.top = '0px';
+	}
+
+	if (scroll_title == 0)
+	{
+		var destination = jQuery('#t_title3').offset().top;
+		destination = destination-150;
+		jQuery("html,body").animate({scrollTop: destination}, 500);
+		scroll_title = 1;
+	}
+
+}
+
+var timer_refresh_alert = 0;
+
+function refresh_alert() {
+	clearInterval(timer_refresh_alert);
+	resize_alert = 0;
+}
+
+$(window).resize(function(){
+	if (resize_alert == 0)
+	{
+		timer_refresh_alert = setTimeout(function() {refresh_alert(); }, 300);
+		alert_size_new3();
+		resize_alert = 1;
+	}
+});
+</script>
+  <div id="fon3" style="display:none; background-image:url(/images/fon.png); width:100%; height:100%; z-index: 300; position:fixed; background-color: rgb(0, 0, 0); top:0px;" onclick="alert_new3(1);">
+  </div>
+  <table id="new_alert3" border="0" cellpadding="0" cellspacing="0" class="new_alert3" style="z-index: 3001; ">
+   <tbody>
+    <tr>
+     <td id="td_alert_new3" valign="top" align="center" style="padding:0px; width:100%;">
+      <div style="border-radius: 15px 15px 0px 0px; display:block; width:97%;">
+       <h3 id="t_title3" style="padding-left:15px; text-align:left; margin-top:10px; width:78%; margin-bottom:10px; float:left; padding-bottom:0px;"></h3>
+       <div style="float:right; margin-left:10px;">
+        <img src="/images/close_red.png" border="0" style="cursor:pointer; width:20px; height:21px; padding-top:15px; padding-right:5px;" alt="Закрыть" onclick="alert_new3(1)">
+       </div>
+       <div class="clear">
+        &nbsp;
+       </div>
+      </div></td>
+    </tr>
+    <tr>
+     <td align="center" valign="top">
+      <div style="padding-left:9px;">
+       <table width="96%" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+         <tr>
+          <td id="alert3_content" width="100%" align="left" valign="top" style="padding-top:10px; padding-right:24px;"></td>
+         </tr>
+        </tbody>
+       </table>
+      </div></td>
+    </tr>
+   </tbody>
+  </table><!--/noindex--><!--noindex-->
+  <div id="cookies_fix" class="cookies_fix">
+   <div class="t_cookies">
+    <div class="td1">
+     <p style="font-size: 12px;font-weight: bold; ">Мы используем cookies</p>
+     <p style="font-size: 12px; line-height:115%;">Во время посещения сайта Театра на Спасской вы соглашаетесь с тем, что мы обрабатываем ваши персональные данные с использованием метрических программ. <a href="/cookies/">Подробнее</a>.</p>
+    </div>
+    <div class="space">
+     &nbsp;
+    </div>
+    <div class="td2">
+     <div class="but" style="margin-top:8px;text-align: right;">
+      <a href="javascript:close_cook();" style="font-size:12px;padding: 5px 10px;">Понятно</a>
+     </div>
+    </div>
+    <div class="clear0">
+     &nbsp;
+    </div>
+   </div>
+   <div class="clear0">
+    &nbsp;
+   </div>
+  </div>
+  <script type="text/javascript">
+			function close_cook()
+			{
+				$('#cookies_fix').css({display: "none"});
+							}
+		</script><!-- end_mob_menu --> <!--/noindex--> <!--noindex-->
+  <div class="menu_top_fix" style="display: none;">
+   <div class="t_top_fix">
+    <div class="td1">
+     <a href="/"><img src="/images/logo_small2.jpg" alt="ТЮЗ" border="0" class="logo_mini"></a>
+    </div>
+    <div class="space">
+     &nbsp;
+    </div>
+    <div class="td2">
+     <div class="but_menu_fix">
+      <img src="/images/but_menu.png" alt="Меню" class="menu_mini" onclick="$('#menu_m').fadeIn('slow'); $('body').css('overflow-y','hidden');">
+     </div>
+    </div>
+   </div>
+   <div class="clear0">
+    &nbsp;
+   </div>
+  </div>
+  <div class="menu_niz_fix">
+   <div class="t_niz_fix">
+    <div class="but_call">
+     <a href="tel:+78332715720">Телефон кассы: +7 (8332) 715-720</a>
+    </div>
+   </div>
+   <div class="clear0">
+    &nbsp;
+   </div>
+  </div>
+  <div class="clear0">
+   &nbsp;
+  </div>
+  <script type="text/javascript">
+	$(window).scroll(function ()
+	{
+
+		if  (document.documentElement.clientWidth <= 878)
+		{
+			if ($(window).scrollTop() > 100)
+			{
+				$('.menu_top_fix').show();
+				$('#shapka_fix').hide();
+
+			}
+			else
+			{
+				$('.menu_top_fix').hide();
+				$('#shapka_fix').show();
+			}
+		}
+		else
+		{
+			$('.menu_top_fix').hide();
+			$('#shapka_fix').show();
+		}
+	});
+
+	$(window).resize(function() {
+		 if (document.documentElement.clientWidth >= 878)
+		 {
+			$('.menu_top_fix').hide();
+			$('#shapka_fix').show();
+		}
+		else
+		{
+			if ($(window).scrollTop() > 100)
+			{
+				$('.menu_top_fix').show();
+				$('#shapka_fix').hide();
+			}
+			else
+			{
+				$('.menu_top_fix').hide();
+				$('#shapka_fix').show();
+			}
+		}
+	});
+</script><!--/noindex-->
+  <table cellpadding="0" cellspacing="0" border="0" class="t_shapka">
+   <tbody>
+    <tr>
+     <td valign="bottom" class="td1">
+      <div>
+       <img src="/images/logoani.gif" alt="" border="0" style="width:100%; max-width:86px; float:left;"> <img src="/images/logostat.gif" alt="" border="0" style="width:100%; max-width:69px; float:left;"> <img src="/images/logo.gif" alt="Эквус" border="0" style="width:100%; max-width:38px; float:left;">
+      </div></td>
+     <td valign="bottom" class="td2">
+      <div class="t_top">
+       <div class="td1">
+        <a href="/"><img src="/images/logo_new.jpg" alt="ТЕАТР НА СПАССКОЙ - Кировский государственный театр юного зрителя" border="0" style="width:100%; max-width:345px;"></a>
+       </div>
+       <div class="space1">
+        &nbsp;
+       </div>
+       <div class="td2">
+        <p style="margin-top:0px;">Телефон кассы<br><b>(8332) 715-720</b></p>
+        <form action="/user/login.php" method="post" class="reg" style="display:none;">
+         <div class="t_reg">
+          <div class="td1">
+           E-mail
+           <br><input type="text" name="user" size="15" maxlength="256" style="width:95%;">
+          </div>
+          <div class="space1">
+           &nbsp;
+          </div>
+          <div class="td2">
+           Пароль
+           <br><input type="password" name="pass" size="15" maxlength="256" style="width:95%;">
+          </div>
+          <div class="space2">
+           &nbsp;
+          </div>
+          <div class="td3">
+           <br><input type="submit" name="submit" value="Вход" class="but">
+          </div>
+         </div>
+         <div class="clear" style="height:5px;">
+          &nbsp;
+         </div>
+         <div>
+          <a href="/user/register.php" style="margin-right:10px; font-size:13px;">Регистрация</a> <span style="margin-right:10px;">/</span> <a href="/user/pass.php" style="font-size:13px;">Забыли пароль?</a>
+         </div>
+        </form>
+       </div>
+       <div class="space2">
+        &nbsp;
+       </div>
+       <div class="td3">
+        <div class="version_see">
+         <a href="/visually-impaired/"><img alt="" class="see" src="/images/vis.png">Версия для слабовидящих</a>
+        </div><img src="/images/but_menu.png" alt="Меню" onclick="$('#menu_m').fadeIn('slow'); $('body').css('overflow-y','hidden');" class="but_menu"> <!--<img src="/images/but_menu.png" alt="Меню" onclick="$('#menu_box_m').slideToggle(400);" class="but_menu" />-->
+       </div>
+      </div><!-- mob_menu -->
+      <div id="menu_m" class="menu_m" style="float:none;">
+       <div class="menu_m_box">
+        <div class="td1">
+         <img src="/images/logo_new.jpg" alt="ТЕАТР НА СПАССКОЙ - Кировский государственный театр юного зрителя" border="0" style="width:100%; max-width:280px;">
+        </div>
+        <div class="space">
+         &nbsp;
+        </div>
+        <div class="td2">
+         <a onclick="$('#menu_m').fadeOut('slow'); $('body').css('overflow-y','auto'); "><img src="/images/close_m.svg" alt="Закрыть" border="0" class="close"></a>
+        </div>
+        <div class="clear0">
+         &nbsp;
+        </div>
+        <div class="clear0">
+         &nbsp;
+        </div>
+       </div><!--noindex--> <!--<div class="line" style="border-bottom: 1px solid #f0f0f0;">&nbsp;</div>-->
+       <ul>
+        <li><a href="/" class="select" rel="nofollow">Главная</a></li>
+        <li><a href="/afisha/" rel="nofollow">Афиша</a></li>
+        <li><a href="/afisha/show/" rel="nofollow">Спектакли</a></li>
+        <li><a href="/news/" rel="nofollow">Новости</a></li>
+        <li><a href="/truppa/" rel="nofollow">Труппа</a></li>
+        <li><a href="/komanda/" rel="nofollow">Команда</a></li>
+        <li><a href="/about/" rel="nofollow">О театре</a></li>
+        <li><a href="/media/" rel="nofollow">Медиа</a></li>
+        <li><a href="/proekts/" rel="nofollow">Наши проекты</a></li>
+       </ul>
+       <script type="text/javascript">
+			function submenu_top_m(menu,idm) {
+				$('#menu_m'+menu).load('/engine/ajax.menu.top.m.php?id='+idm+'&menu='+menu);
+			}
+		</script><!--/noindex--> <!--noindex-->
+       <p style="text-align:center; margin-top:0px;"><a href="/visually-impaired/" rel="nofollow" style="color:#ffffff;"><img alt="" class="see" src="/images/vis.png" border="0" style="width:35px; height:20px; margin-right:10px; position:relative; top:12px;">Версия для слабовидящих</a></p>
+       <div class="phone_m">
+        <p>Телефон кассы</p><a href="tel:+78332715720" rel="nofollow">+7 (8332) 715-720</a>
+        <p style="margin-top: 20px;margin-bottom: 0px;">Адрес:</p>
+        <p>610000, г. Киров, ул. Спасская, 17.</p>
+       </div><!--/noindex-->
+      </div>
+      <div class="clear0">
+       &nbsp;
+      </div>
+      <table cellpadding="0" cellspacing="0" border="0" class="menu">
+       <tbody>
+        <tr>
+         <td valign="bottom" style="max-width:95px;">
+          <div class="menu_start">
+           <a href="/">Главная</a>
+          </div></td>
+         <td valign="bottom" style="max-width:95px;">
+          <div class="menu_start">
+           <a href="/afisha/" class="select">Афиша</a>
+          </div></td>
+         <td valign="bottom" style="max-width:99px;">
+          <div class="menu_news">
+           <a href="/news/">Новости</a>
+          </div></td>
+         <td valign="bottom" style="max-width:99px;">
+          <div class="menu_kom">
+           <a href="/people/">Команда</a>
+          </div></td>
+         <td valign="bottom" style="max-width:91px;">
+          <div class="menu_teatr">
+           <a href="/about/">О театре</a>
+          </div></td>
+         <td valign="bottom" style="max-width:95px;">
+          <div class="menu_media">
+           <a href="/media/">Медиа</a>
+          </div></td>
+         <td valign="bottom" style="max-width:93px;">
+          <div class="menu_uslugi">
+           <a href="/proekts/">Проекты</a>
+          </div></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+  <table border="0" cellpadding="0" cellspacing="0" summary="" class="t_base">
+   <tbody>
+    <tr>
+     <td class="td1" valign="top">
+      <div style="padding:12px 12px;">
+       <p style="margin-top:0px;"><b>Спектакли</b></p>
+       <ul class="left-menu">
+        <li><a href="/afisha/show/242">Барышня-крестьянка</a></li>
+        <li><a href="/afisha/show/228">Бог ездит на велосипеде</a></li>
+        <li><a href="/afisha/show/252">Большая любовь Робин Гуда</a></li>
+        <li><a href="/afisha/show/145">Бременские музыканты</a></li>
+        <li><a href="/afisha/show/283">Буря</a></li>
+        <li><a href="/afisha/show/271">Вятские сказки</a></li>
+        <li><a href="/afisha/show/266">Друг мой</a></li>
+        <li><a href="/afisha/show/268">Записки юного врача</a></li>
+        <li><a href="/afisha/show/249">Заткнись и исчезни</a></li>
+        <li><a href="/afisha/show/1">Золушка</a></li>
+        <li><a href="/afisha/show/154">Иван - богатырский сын</a></li>
+        <li><a href="/afisha/show/313">Каштанка</a></li>
+        <li><a href="/afisha/show/46">Кошкин дом</a></li>
+        <li><a href="/afisha/show/322">Легенда о Витберге</a></li>
+        <li><a href="/afisha/show/139">Обыкновенное чудо</a></li>
+        <li><a href="/afisha/show/67">Остров сокровищ</a></li>
+        <li><a href="/afisha/show/269">Последние дни Базарова</a></li>
+        <li><a href="/afisha/show/326">Простые вещи</a></li>
+        <li><a href="/afisha/show/317">Прощание с Матёрой</a></li>
+        <li><a href="/afisha/show/339">Рыжий. Честный. Влюблённый.</a></li>
+        <li><a href="/afisha/show/340">Серебряная лилия</a></li>
+        <li><a href="/afisha/show/314">Сомнамбулизм</a></li>
+        <li><a href="/afisha/show/227">Стойкий оловянный солдатик</a></li>
+        <li><a href="/afisha/show/89">Трям! Здравствуйте!</a></li>
+        <li><a href="/afisha/show/224">Это я тебе ухо откусила!</a></li>
+        <li><a href="/afisha/show/134">Я вернусь!..</a></li>
+       </ul>
+       <div class="line">
+        &nbsp;
+       </div>
+       <p style="text-align:center;"><a href="/archive/show/" style="color:#ffffff;">Архив</a></p>
+      </div></td>
+     <td class="space1">&nbsp;</td>
+     <td class="td2" valign="top">
+      <div class="page_box">
+       <p style="float:left"><img src="/media/folder_pic/_2_260fa8f4e6801b17145539849fcc6e.jpg" border="0" alt="" style="width:100%; max-width:136px"></p>
+       <br>
+       <p class="a_kol_bilet" style="float:right; text-align:center;"><a href="/bilet/">Коллективный заказ<br>
+         билетов</a></p>
+       <div class="clear0">
+        &nbsp;
+       </div>
+       <p style="text-align: right;"><a href="https://ekvus-kirov.ru/podarochnie-sertifikati/" target="_blank">Подарочный сертификат</a></p><!-- QT IFRAME block -->
+       <div id="qt_c" hidden>
+        <div id="qt_x">
+         x
+        </div><iframe src="" id="qt_i"></iframe>
+       </div>
+       <script type="text/javascript">
+$(document).ready(function() {
+    var $qt_c = $('#qt_c'), $qt_i = $('#qt_i'), $hide = $('#qt_c, #qt_x'), $selectors = $('.a_quicktickets');
+    function quicktickets_resize() {
+        let left = $qt_c.width() * 0.9;
+        left = ((left < 1200) ? left : 1200);
+        left = ($qt_c.width() - left) / 2;
+        $qt_i.css('left', left + 'px');
+    }
+    $(window).resize(quicktickets_resize);
+    $selectors.click(function() {
+        if (!(/iPhone/i.test(navigator.userAgent))) {
+            let href = $(this).attr('href');
+            if (href.indexOf('quicktickets.ru') !== -1) {
+                $qt_i.attr('src', href);
+                quicktickets_resize();
+                $qt_c.removeAttr('hidden');
+                return false;
+            }
+        }
+    });
+    $hide.click(function() { $qt_c.attr('hidden', 'hidden'); return false; });
+});
+</script><!-- QT IFRAME block -->
+       <table width="100%" border="0" cellpadding="0" cellspacing="0" summary="" class="myafisha">
+        <tbody>
+         <tr>
+          <td align="left" valign="top" colspan="3" style="border-top: 0px solid #FFFFFF; padding-top: 10px">
+           <h2>Ноябрь 2024</h2></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4127"><font color="#CCCCCC">21 ноября в 19:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">камерное пространство сцены<br><a href="/afisha/show/224">ЭТО Я ТЕБЕ УХО ОТКУСИЛА!<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Светлана Баженова</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <script async src="https://afisha.ru/w/ticketmanager.js"></script>
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108216247');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4128"><font color="#CCCCCC">22 ноября в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/283">БУРЯ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Уильям Шекспир</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108214668');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4129"><font color="#CCCCCC">23 ноября в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/313">КАШТАНКА<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Антон Чехов</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108214766');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4130"><font color="#CCCCCC">23 ноября в 18:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/269">ПОСЛЕДНИЕ ДНИ БАЗАРОВА<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Иван Тургенев</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108214667');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4179"><font color="#CCCCCC">23 ноября в 19:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">экспериментальная сцена<br><a href="/afisha/show/341">НЕ ДУРЫ<span class="al_s">12+</span></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"></td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109557263');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4131"><font color="#CCCCCC">24 ноября в 11:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/145">БРЕМЕНСКИЕ МУЗЫКАНТЫ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Юрий Энтин, Василий Ливанов, Геннадий Гладков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108215602');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4132"><font color="#CCCCCC">24 ноября в 14:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/145">БРЕМЕНСКИЕ МУЗЫКАНТЫ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Юрий Энтин, Василий Ливанов, Геннадий Гладков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108215603');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4139"><font color="#CCCCCC">26 ноября в 18:00</font></a><br>
+           Вторник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/325">ВЕЧЕР ОДНОАКТНЫХ ХОРЕОГРАФИЧЕСКИХ СПЕКТАКЛЕЙ<span class="al_s">16+</span></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"></td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108638547');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4140"><font color="#CCCCCC">27 ноября в 18:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/144">ФЕСТИВАЛЬ СОВРЕМЕННОГО ТАНЦА «3DВИГ»<span class="al_s">12+</span></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">фестиваль современного танца и перформанса</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108638549');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4133"><font color="#CCCCCC">28 ноября в 19:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/326">ПРОСТЫЕ ВЕЩИ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Лиза Булаева</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108214669');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4134"><font color="#CCCCCC">29 ноября в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/268">ЗАПИСКИ ЮНОГО ВРАЧА<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Михаил Булгаков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108214665');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4135"><font color="#CCCCCC">30 ноября в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/46">КОШКИН ДОМ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Самуил Маршак</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108216246');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4136"><font color="#CCCCCC">30 ноября в 18:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/228">БОГ ЕЗДИТ НА ВЕЛОСИПЕДЕ<span class="al_s">12+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Дарья Уткина и Ирина Васьковская</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108214739');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td align="left" valign="top" colspan="3" style="border-top: 0px solid #FFFFFF; padding-top: 10px">
+           <h2>Декабрь 2024</h2></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4141"><font color="#CCCCCC">01 декабря в 13:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/339">РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Георгий Полонский</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108997386');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4142"><font color="#CCCCCC">01 декабря в 18:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/339">РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Георгий Полонский</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108996839');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4143"><font color="#CCCCCC">04 декабря в 19:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">камерное пространство сцены<br><a href="/afisha/show/249">ЗАТКНИСЬ И ИСЧЕЗНИ<span class="al_s">18+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Лара Бессмертная</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999801');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4144"><font color="#CCCCCC">05 декабря в 19:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/326">ПРОСТЫЕ ВЕЩИ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Лиза Булаева</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999658');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4145"><font color="#CCCCCC">06 декабря в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/252">БОЛЬШАЯ ЛЮБОВЬ РОБИН ГУДА<span class="al_s">12+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Леонид Филатов</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108997372');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4146"><font color="#CCCCCC">07 декабря в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/145">БРЕМЕНСКИЕ МУЗЫКАНТЫ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Юрий Энтин, Василий Ливанов, Геннадий Гладков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108997387');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4147"><font color="#CCCCCC">07 декабря в 18:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/283">БУРЯ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Уильям Шекспир</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108996833');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4148"><font color="#CCCCCC">08 декабря в 11:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/313">КАШТАНКА<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Антон Чехов</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108997389');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4149"><font color="#CCCCCC">08 декабря в 18:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/269">ПОСЛЕДНИЕ ДНИ БАЗАРОВА<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Иван Тургенев</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108996241');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4150"><font color="#CCCCCC">11 декабря в 19:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/317">ПРОЩАНИЕ С МАТЁРОЙ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Валентин Распутин</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999656');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4151"><font color="#CCCCCC">13 декабря в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/268">ЗАПИСКИ ЮНОГО ВРАЧА<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Михаил Булгаков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108996226');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4152"><font color="#CCCCCC">14 декабря в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/67">ОСТРОВ СОКРОВИЩ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Роберт Стивенсон</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999641');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4153"><font color="#CCCCCC">14 декабря в 18:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/322">ЛЕГЕНДА О ВИТБЕРГЕ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Софья Линёва</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108996236');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4154"><font color="#CCCCCC">15 декабря в 11:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/227">СТОЙКИЙ ОЛОВЯННЫЙ СОЛДАТИК<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Г-Х. Андерсен</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999650');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4155"><font color="#CCCCCC">22 декабря в 11:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999635');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4156"><font color="#CCCCCC">24 декабря в 14:00</font></a><br>
+           Вторник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999637');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4157"><font color="#CCCCCC">25 декабря в 11:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999638');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4158"><font color="#CCCCCC">26 декабря в 11:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999639');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4159"><font color="#CCCCCC">27 декабря в 11:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999640');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4160"><font color="#CCCCCC">27 декабря в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/139">ОБЫКНОВЕННОЕ ЧУДО<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Евгений Шварц</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108997385');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4161"><font color="#CCCCCC">28 декабря в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/1">ЗОЛУШКА<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Тамара Габбе</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999642');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4162"><font color="#CCCCCC">28 декабря в 14:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/1">ЗОЛУШКА<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Тамара Габбе</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '108999643');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td align="left" valign="top" colspan="3" style="border-top: 0px solid #FFFFFF; padding-top: 10px">
+           <h2>Январь 2025</h2></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4163"><font color="#CCCCCC">02 января в 11:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303070');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4164"><font color="#CCCCCC">02 января в 14:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303071');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4168"><font color="#CCCCCC">03 января в 11:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/1">ЗОЛУШКА<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Тамара Габбе</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303080');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4169"><font color="#CCCCCC">03 января в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/322">ЛЕГЕНДА О ВИТБЕРГЕ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Софья Линёва</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109302912');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4170"><font color="#CCCCCC">04 января в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/227">СТОЙКИЙ ОЛОВЯННЫЙ СОЛДАТИК<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Г-Х. Андерсен</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303153');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4171"><font color="#CCCCCC">04 января в 18:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/269">ПОСЛЕДНИЕ ДНИ БАЗАРОВА<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Иван Тургенев</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109302925');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4165"><font color="#CCCCCC">05 января в 11:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303072');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4172"><font color="#CCCCCC">05 января в 18:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/139">ОБЫКНОВЕННОЕ ЧУДО<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Евгений Шварц</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109302996');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4173"><font color="#CCCCCC">06 января в 11:00</font></a><br>
+           Понедельник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/154">ИВАН - БОГАТЫРСКИЙ СЫН<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Дарья Уткина</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303082');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4174"><font color="#CCCCCC">06 января в 18:00</font></a><br>
+           Понедельник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/252">БОЛЬШАЯ ЛЮБОВЬ РОБИН ГУДА<span class="al_s">12+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Леонид Филатов</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303000');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4166"><font color="#CCCCCC">07 января в 11:00</font></a><br>
+           Вторник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303073');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4167"><font color="#CCCCCC">07 января в 17:00</font></a><br>
+           Вторник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303074');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4175"><font color="#CCCCCC">08 января в 11:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/67">ОСТРОВ СОКРОВИЩ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Роберт Стивенсон</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303067');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4176"><font color="#CCCCCC">08 января в 18:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/283">БУРЯ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Уильям Шекспир</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303005');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4177"><font color="#CCCCCC">11 января в 14:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/339">РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Георгий Полонский</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303065');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4178"><font color="#CCCCCC">12 января в 14:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/339">РЫЖИЙ. ЧЕСТНЫЙ. ВЛЮБЛЁННЫЙ.<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Георгий Полонский</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109303066');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4180"><font color="#CCCCCC">17 января в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/322">ЛЕГЕНДА О ВИТБЕРГЕ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Софья Линёва</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109818946');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4181"><font color="#CCCCCC">18 января в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/145">БРЕМЕНСКИЕ МУЗЫКАНТЫ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Юрий Энтин, Василий Ливанов, Геннадий Гладков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819317');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4182"><font color="#CCCCCC">18 января в 14:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/145">БРЕМЕНСКИЕ МУЗЫКАНТЫ<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Юрий Энтин, Василий Ливанов, Геннадий Гладков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819324');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4183"><font color="#CCCCCC">21 января в 19:00</font></a><br>
+           Вторник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">камерное пространство сцены<br><a href="/afisha/show/224">ЭТО Я ТЕБЕ УХО ОТКУСИЛА!<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Светлана Баженова</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819498');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4184"><font color="#CCCCCC">22 января в 19:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">камерное пространство сцены<br><a href="/afisha/show/249">ЗАТКНИСЬ И ИСЧЕЗНИ<span class="al_s">18+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Лара Бессмертная</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819496');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4185"><font color="#CCCCCC">23 января в 19:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Спецпроект «Диалоги» (экспериментальная сцена)<br><a href="/afisha/show/314">СОМНАМБУЛИЗМ<span class="al_s">18+</span></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Ярослава Пулинович</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819632');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4186"><font color="#CCCCCC">24 января в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/268">ЗАПИСКИ ЮНОГО ВРАЧА<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Михаил Булгаков</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109818989');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4187"><font color="#CCCCCC">25 января в 11:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/313">КАШТАНКА<span class="al">6+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Антон Чехов</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819325');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4188"><font color="#CCCCCC">25 января в 18:00</font></a><br>
+           Суббота</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/252">БОЛЬШАЯ ЛЮБОВЬ РОБИН ГУДА<span class="al_s">12+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Леонид Филатов</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819025');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4189"><font color="#CCCCCC">26 января в 11:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819326');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4190"><font color="#CCCCCC">26 января в 14:00</font></a><br>
+           Воскресенье</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/340">СЕРЕБРЯНАЯ ЛИЛИЯ<span class="al">0+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Анна Сердолик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819327');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4191"><font color="#CCCCCC">28 января в 19:00</font></a><br>
+           Вторник</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Спецпроект «Диалоги» (экспериментальная сцена)<br><a href="/afisha/show/266">ДРУГ МОЙ<span class="al_s">18+</span></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Константин Стешик</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819499');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4192"><font color="#CCCCCC">29 января в 19:00</font></a><br>
+           Среда</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/317">ПРОЩАНИЕ С МАТЁРОЙ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Валентин Распутин</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819497');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4193"><font color="#CCCCCC">30 января в 19:00</font></a><br>
+           Четверг</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">ПРЕМЬЕРА<br><a href="/afisha/show/326">ПРОСТЫЕ ВЕЩИ<span class="al_s">16+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Лиза Булаева</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819495');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4194"><font color="#CCCCCC">31 января в 14:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/228">БОГ ЕЗДИТ НА ВЕЛОСИПЕДЕ<span class="al_s">12+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Дарья Уткина и Ирина Васьковская</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '1109819055');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+         <tr>
+          <td width="200" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="../bilet/?id=4195"><font color="#CCCCCC">31 января в 18:00</font></a><br>
+           Пятница</td>
+          <td align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px"><a href="/afisha/show/228">БОГ ЕЗДИТ НА ВЕЛОСИПЕДЕ<span class="al_s">12+</span><img src="/images/pushkin.png" border="0" alt="Пушкинская карта" title="Участвует в программе «Пушкинская карта»" class="icon_pc"></a></td>
+          <td class="afisha_hide" width="170" align="left" valign="top" style="border-top: 1px solid #FFFFFF; padding-top: 10px; padding-bottom: 10px">Дарья Уткина и Ирина Васьковская</td>
+          <td width="130" class="afisha_hide" align="right" style="border-top: 1px solid #FFFFFF;">
+           <div class="but">
+            <a href="javascript:ticketManager.session('b44e6ee5-9dea-47bb-aee2-457185328704', '109819065');" style="padding:5px 10px; font-size: 15px;">Купить билет</a>
+           </div></td>
+         </tr>
+        </tbody>
+       </table>
+       <br>
+      </div></td>
+    </tr>
+    <tr id="plus_tr" style="display:none;">
+     <td class="td1" style="min-width:123px;"><!--noindex--><span style="color:#FC1A19;">Главная видео</span><!--/noindex--></td>
+     <td class="space1" style="width:64px;">&nbsp;</td>
+     <td class="td2">&nbsp; 
+      <div id="niz_plus" style="clear:both;">
+       &nbsp;
+      </div></td>
+    </tr>
+    <tr>
+     <td class="td1" style="min-width:123px;">&nbsp;</td>
+     <td class="space1" style="width:64px;">&nbsp;</td>
+     <td class="td2" style="padding-bottom: 33px;background-image: url(/images/tuz.gif);background-repeat: no-repeat; background-position: bottom right;">
+      <div class="t_niz">
+       <div class="td1">
+        <p class="h2"><a href="/afisha/">Афиша</a></p>
+        <ul class="menu_niz">
+         <li><a href="/afisha/">Афиша</a></li>
+         <li><a href="/archive/show/">Архив</a></li>
+        </ul>
+       </div>
+       <div class="space6">
+        &nbsp;
+       </div>
+       <div class="space5">
+        &nbsp;
+       </div>
+       <div class="space4">
+        &nbsp;
+       </div>
+       <div class="space3">
+        &nbsp;
+       </div>
+       <div class="space2">
+        &nbsp;
+       </div>
+       <div class="rz1">
+        &nbsp;
+       </div>
+       <div class="td2">
+        <p class="h2"><a href="/news/">Новости</a></p>
+        <ul class="menu_niz">
+         <li><a href="/news/">Новости</a></li>
+         <li><a href="/konkurs/">Конкурсы</a></li>
+         <li><a href="/proekts/">Проекты</a></li>
+        </ul>
+       </div>
+       <div class="space6">
+        &nbsp;
+       </div>
+       <div class="space5">
+        &nbsp;
+       </div>
+       <div class="space4">
+        &nbsp;
+       </div>
+       <div class="space3">
+        &nbsp;
+       </div>
+       <div class="rz2">
+        &nbsp;
+       </div>
+       <div class="rz1">
+        &nbsp;
+       </div>
+       <div class="td3">
+        <p class="h2"><a href="/people/">Команда</a></p>
+        <ul class="menu_niz">
+         <li><a href="/truppa/">Труппа</a></li>
+         <li><a href="/komanda/">Команда</a></li>
+        </ul>
+       </div>
+       <div class="space6">
+        &nbsp;
+       </div>
+       <div class="space5">
+        &nbsp;
+       </div>
+       <div class="space4">
+        &nbsp;
+       </div>
+       <div class="rz3">
+        &nbsp;
+       </div>
+       <div class="space2">
+        &nbsp;
+       </div>
+       <div class="rz1">
+        &nbsp;
+       </div>
+       <div class="td4">
+        <p class="h2"><a href="/about/">О театре</a></p>
+        <ul class="menu_niz">
+         <li><a href="/history/">История</a></li>
+         <li><a href="/ekvus/">Кто такой Эквус?</a></li>
+         <li><a href="/tehdanie/">Технические данные</a></li>
+         <li><a href="/documents/">Документы</a></li>
+         <li><a href="/kachestvo/">Оценка качества</a></li>
+         <li><a href="/partners/">Партнеры</a></li>
+         <li><a href="/contacts/">Контакты</a></li>
+        </ul>
+       </div>
+       <div class="space6">
+        &nbsp;
+       </div>
+       <div class="space5">
+        &nbsp;
+       </div>
+       <div class="rz4">
+        &nbsp;
+       </div>
+       <div class="space3">
+        &nbsp;
+       </div>
+       <div class="rz2">
+        &nbsp;
+       </div>
+       <div class="rz1">
+        &nbsp;
+       </div>
+       <div class="td5">
+        <p class="h2"><a href="/media/">Медиа</a></p>
+        <ul class="menu_niz">
+         <li><a href="/press/">Пресса</a></li>
+         <li><a href="/media/photos/">Фотографии</a></li>
+         <li><a href="/media/video/">Видео</a></li>
+        </ul>
+       </div>
+       <div class="space6">
+        &nbsp;
+       </div>
+       <div class="space5">
+        &nbsp;
+       </div>
+       <div class="space4">
+        &nbsp;
+       </div>
+       <div class="space3">
+        &nbsp;
+       </div>
+       <div class="space2">
+        &nbsp;
+       </div>
+       <div class="rz1">
+        &nbsp;
+       </div>
+       <div class="td6">
+        <p class="h2"><a href="/uslugi/">Услуги</a></p>
+        <ul class="menu_niz">
+         <li><a href="/dogovor-offer/">Правила продажи и возврата билетов</a></li>
+         <li><a href="/uslugi/">Услуги театра</a></li>
+        </ul>
+       </div>
+       <div class="space5">
+        &nbsp;
+       </div>
+       <div class="space4">
+        &nbsp;
+       </div>
+       <div class="rz1">
+        &nbsp;
+       </div>
+       <div class="clear0">
+        &nbsp;
+       </div>
+      </div>
+      <div style="position:relative;">
+       <div id="box_socseti" class="box_socseti">
+        <p><a href="https://vk.com/theateronthespasskaya" rel="nofollow" target="_blank"><img alt="В" src="/images/vk.png" style="width: 37px; height: 37px; border-width: 0px; border-style: solid;"></a></p>
+        <p style="display:none;"><a href="https://www.facebook.com/%D0%A2%D0%B5%D0%B0%D1%82%D1%80-%D0%BD%D0%B0-%D0%A1%D0%BF%D0%B0%D1%81%D1%81%D0%BA%D0%BE%D0%B9-1460339184177804/" rel="nofollow" target="_blank"><img alt="In" src="/images/facebook.png" style="width: 37px; height: 37px; border-width: 0px; border-style: solid;"></a></p>
+        <p style="display:none;"><a href="https://www.instagram.com/ekvus_teatr/" rel="nofollow" target="_blank"><img alt="In" src="/images/insta.png" style="width: 37px; height: 37px; border-width: 0px; border-style: solid;"></a></p>
+        <p style="display:none;"><a href="https://www.youtube.com/channel/UCsqy9ttHecX4UINFBrf-byg" rel="nofollow" target="_blank"><img alt="In" src="/images/yuotube.png" style="width: 37px; height: 37px; border-width: 0px; border-style: solid;"></a></p>
+        <p><a href="https://t.me/ekvus_teatr" rel="nofollow" target="_blank"><img alt="In" src="/images/telegram.png" style="width: 37px; height: 37px; border-width: 0px; border-style: solid; margin-right:0px;"></a></p>
+        <div class="clear0">
+         &nbsp;
+        </div>
+       </div>
+       <div class="mob">
+        &nbsp;
+        <br>
+        <br>
+       </div>
+      </div>
+      <div class="clear">
+       &nbsp;
+      </div></td>
+    </tr><!--<tr>
+				<td class="td1">&nbsp;</td>
+				<td class="space1">&nbsp;</td>
+				<td class="td2">
+					<div class="t_niz">
+		<div class="td1"><p class="h2"><a href="/afisha/">Афиша</a></p><ul class="menu_niz"><li><a href="/afisha/">Афиша</a></li><li><a href="/archive/show/">Архив</a></li></ul></div><div class="space6">&nbsp;</div><div class="space5">&nbsp;</div><div class="space4">&nbsp;</div><div class="space3">&nbsp;</div><div class="space2">&nbsp;</div><div class="rz1">&nbsp;</div><div class="td2"><p class="h2"><a href="/news/">Новости</a></p><ul class="menu_niz"><li><a href="/news/">Новости</a></li><li><a href="/konkurs/">Конкурсы</a></li><li><a href="/proekts/">Проекты</a></li></ul></div><div class="space6">&nbsp;</div><div class="space5">&nbsp;</div><div class="space4">&nbsp;</div><div class="space3">&nbsp;</div><div class="rz2">&nbsp;</div>
+<div class="rz1">&nbsp;</div><div class="td3"><p class="h2"><a href="/people/">Команда</a></p><ul class="menu_niz"><li><a href="/truppa/">Труппа</a></li><li><a href="/komanda/">Команда</a></li></ul></div><div class="space6">&nbsp;</div><div class="space5">&nbsp;</div><div class="space4">&nbsp;</div><div class="rz3">&nbsp;</div>
+<div class="space2">&nbsp;</div><div class="rz1">&nbsp;</div><div class="td4"><p class="h2"><a href="/about/">О театре</a></p><ul class="menu_niz"><li><a href="/history/">История</a></li><li><a href="/ekvus/">Кто такой Эквус?</a></li><li><a href="/tehdanie/">Технические данные</a></li><li><a href="/documents/">Документы</a></li><li><a href="/kachestvo/">Оценка качества</a></li><li><a href="/partners/">Партнеры</a></li><li><a href="/contacts/">Контакты</a></li></ul></div><div class="space6">&nbsp;</div><div class="space5">&nbsp;</div><div class="rz4">&nbsp;</div>
+<div class="space3">&nbsp;</div><div class="rz2">&nbsp;</div>
+<div class="rz1">&nbsp;</div><div class="td5"><p class="h2"><a href="/media/">Медиа</a></p><ul class="menu_niz"><li><a href="/press/">Пресса</a></li><li><a href="/media/photos/">Фотографии</a></li><li><a href="/media/video/">Видео</a></li></ul></div><div class="space6">&nbsp;</div><div class="space5">&nbsp;</div><div class="space4">&nbsp;</div><div class="space3">&nbsp;</div><div class="space2">&nbsp;</div><div class="rz1">&nbsp;</div><div class="td6"><p class="h2"><a href="/uslugi/">Услуги</a></p><ul class="menu_niz"><li><a href="/dogovor-offer/">Правила продажи и возврата билетов</a></li><li><a href="/uslugi/">Услуги театра</a></li></ul></div><div class="space5">&nbsp;</div><div class="space4">&nbsp;</div><div class="rz1">&nbsp;</div>		<div class="clear0">&nbsp;</div>
+	</div>				</td>
+			</tr>--> <!--<tr>
+		<td class="td1">&nbsp;
+			<div style="font-size:11px; text-align:center; color:white;">Сайт сделан в<br /><a href="https://mntsite.ru/" title="Создание сайтов" target="_blank" style="text-decoration:none; color:white;">Маунтин Сайт</a></div>
+			<br />
+		</td>
+		<td class="space1">&nbsp;</td>
+		<td class="td2">&nbsp;</td>
+	</tr>-->
+   </tbody>
+  </table>
+  <script type="text/javascript">
+		$('input,textarea').focus(function(){
+	        $(this).data('placeholder',$(this).attr('placeholder'))
+	        $(this).attr('placeholder','');
+	    });
+	    $('input,textarea').blur(function(){
+	        $(this).attr('placeholder',$(this).data('placeholder'));
+	    });
+
+		function niz_plus()
+		{
+			if (document.getElementById('niz_plus'))
+			{
+				document.getElementById('niz_plus').style.height = "0px";
+				document.getElementById('plus_tr').style.height = "0px";
+
+				myHeight = document.documentElement.clientHeight;
+
+				bodyHeight = document.body.offsetHeight;
+
+				if (bodyHeight < myHeight)
+				{
+					plusHeight = myHeight - bodyHeight;
+					document.getElementById('plus_tr').style.height = "0px";
+					document.getElementById('niz_plus').style.height = plusHeight+"px";
+					document.getElementById('plus_tr').style.display = '';
+				}
+				else
+				{
+					document.getElementById('plus_tr').style.display = 'none';
+				}
+			}
+		}
+
+		$(window).resize(function() {
+			niz_plus();
+
+			if (document.getElementById('menu_m'))
+			{
+				if (document.documentElement.clientWidth > 924)
+				{
+					document.getElementById('menu_m').style.display = 'none';
+				}
+			}
+
+		});
+
+		$(document).ready(function(){
+			niz_plus();
+		});
+	</script><!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter4407631 = new Ya.Metrika({
+                    id:4407631,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+  <noscript>
+   <div>
+    <img src="https://mc.yandex.ru/watch/4407631" style="position:absolute; left:-9999px;" alt="">
+   </div>
+  </noscript><!-- /Yandex.Metrika counter -->
+  <script async src="https://culturaltracking.ru/static/js/spxl.js?pixelId=11658" data-pixel-id="11658"></script><!-- Top.Mail.Ru counter -->
+  <script type="text/javascript">
+var _tmr = window._tmr || (window._tmr = []);
+_tmr.push({id: "3376907", type: "pageView", start: (new Date()).getTime()});
+(function (d, w, id) {
+  if (d.getElementById(id)) return;
+  var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id;
+  ts.src = "https://top-fwz1.mail.ru/js/code.js";
+  var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+  if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window, "tmr-code");
+</script>
+  <noscript>
+   <div>
+    <img src="https://top-fwz1.mail.ru/counter?id=3376907;js=na" style="position:absolute;left:-9999px;" alt="Top.Mail.Ru">
+   </div>
+  </noscript><!-- /Top.Mail.Ru counter -->
+ </body>
+</html>

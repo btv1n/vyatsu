@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        body {
+          margin: 0;
+          min-height: 100vh;
+          display: flex;
+          justify-content: center; /* центрирование по горизонтали */
+          align-items: center;     /* центрирование по вертикали */
+          text-align: center;
+
+        }
+        img {
+            animation-duration: 1s;
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform: rotate(360deg);
+            transition: transform 0.5s;
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0)  rotateY(0deg);
+                filter: invert(50%) sepia(100%) hue-rotate(0deg) saturate(200%);
+            }
+            100% {
+                transform: rotate(360deg) rotateY(360deg);
+                filter: invert(50%) sepia(100%) hue-rotate(360deg) saturate(200%);
+            }
+        }
+
+        body {
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+  <img src="circle.png" height="300">
+</body>
+
+</html>

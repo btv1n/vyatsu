@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dti%3A%22LLM%22%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=ti:"LLM"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LY8DTD3IH48Y2TsJHB1TKft4Kdo</id>
+  <updated>2025-03-20T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">8006</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1601.06914v1</id>
+    <updated>2016-01-26T07:50:51Z</updated>
+    <published>2016-01-26T07:50:51Z</published>
+    <title>LLM Magnons</title>
+    <summary>  We consider excitations of LLM geometries described by coloring the LLM plane
+with concentric black rings. Certain closed string excitations are localized at
+the edges of these rings. The string theory predictions for the energies of
+magnon excitations of these strings depends on the radii of the edges of the
+rings. In this article we construct the operators dual to these closed string
+excitations and show how to reproduce the string theory predictions for magnon
+energies by computing one loop anomalous dimensions. These operators are linear
+combinations of restricted Schur polynomials. The distinction between what is
+the background and what is the excitation is accomplished in the choice of the
+subgroup and the representations used to construct the operator.
+</summary>
+    <author>
+      <name>Robert de Mello Koch</name>
+    </author>
+    <author>
+      <name>Christopher Mathwin</name>
+    </author>
+    <author>
+      <name>Hendrik J. R. van Zyl</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP03(2016)110</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP03(2016)110" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1601.06914v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.06914v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.10321v4</id>
+    <updated>2025-03-12T03:16:27Z</updated>
+    <published>2023-12-16T05:01:23Z</published>
+    <title>LLM-SQL-Solver: Can LLMs Determine SQL Equivalence?</title>
+    <summary>  Judging the equivalence between two SQL queries is a fundamental problem with
+many practical applications in data management and SQL generation (i.e.,
+evaluating the quality of generated SQL queries in text-to-SQL task). While the
+research community has reasoned about SQL equivalence for decades, it poses
+considerable difficulties and no complete solutions exist. Recently, Large
+Language Models (LLMs) have shown strong reasoning capability in conversation,
+question answering and solving mathematics challenges. In this paper, we study
+if LLMs can be used to determine the equivalence between SQL queries under two
+notions of SQL equivalence (semantic equivalence and relaxed equivalence). To
+assist LLMs in generating high quality responses, we present two prompting
+techniques: Miniature &amp; Mull and Explain &amp; Compare. The former technique is
+used to evaluate the semantic equivalence in which it asks LLMs to execute a
+query on a simple database instance and then explore if a counterexample exists
+by modifying the database. The latter technique is used to evaluate the relaxed
+equivalence in which it asks LLMs to explain the queries and then compare if
+they contain significant logical differences. Our experiments demonstrate using
+our techniques, LLMs is a promising tool to help data engineers in writing
+semantically equivalent SQL queries, however challenges still persist, and is a
+better metric for evaluating SQL generation than the popular execution
+accuracy.
+</summary>
+    <author>
+      <name>Fuheng Zhao</name>
+    </author>
+    <author>
+      <name>Jiayue Chen</name>
+    </author>
+    <author>
+      <name>Lawrence Lim</name>
+    </author>
+    <author>
+      <name>Ishtiyaque Ahmad</name>
+    </author>
+    <author>
+      <name>Divyakant Agrawal</name>
+    </author>
+    <author>
+      <name>Amr El Abbadi</name>
+    </author>
+    <link href="http://arxiv.org/abs/2312.10321v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2312.10321v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.02412v1</id>
+    <updated>2024-01-04T18:53:01Z</updated>
+    <published>2024-01-04T18:53:01Z</published>
+    <title>LLM Augmented LLMs: Expanding Capabilities through Composition</title>
+    <summary>  Foundational models with billions of parameters which have been trained on
+large corpora of data have demonstrated non-trivial skills in a variety of
+domains. However, due to their monolithic structure, it is challenging and
+expensive to augment them or impart new skills. On the other hand, due to their
+adaptation abilities, several new instances of these models are being trained
+towards new domains and tasks. In this work, we study the problem of efficient
+and practical composition of existing foundation models with more specific
+models to enable newer capabilities. To this end, we propose CALM --
+Composition to Augment Language Models -- which introduces cross-attention
+between models to compose their representations and enable new capabilities.
+Salient features of CALM are: (i) Scales up LLMs on new tasks by 're-using'
+existing LLMs along with a few additional parameters and data, (ii) Existing
+model weights are kept intact, and hence preserves existing capabilities, and
+(iii) Applies to diverse domains and settings. We illustrate that augmenting
+PaLM2-S with a smaller model trained on low-resource languages results in an
+absolute improvement of up to 13\% on tasks like translation into English and
+arithmetic reasoning for low-resource languages. Similarly, when PaLM2-S is
+augmented with a code-specific model, we see a relative improvement of 40\%
+over the base model for code generation and explanation tasks -- on-par with
+fully fine-tuned counterparts.
+</summary>
+    <author>
+      <name>Rachit Bansal</name>
+    </author>
+    <author>
+      <name>Bidisha Samanta</name>
+    </author>
+    <author>
+      <name>Siddharth Dalmia</name>
+    </author>
+    <author>
+      <name>Nitish Gupta</name>
+    </author>
+    <author>
+      <name>Shikhar Vashishth</name>
+    </author>
+    <author>
+      <name>Sriram Ganapathy</name>
+    </author>
+    <author>
+      <name>Abhishek Bapna</name>
+    </author>
+    <author>
+      <name>Prateek Jain</name>
+    </author>
+    <author>
+      <name>Partha Talukdar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 2 figures, 8 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2401.02412v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2401.02412v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00215v1</id>
+    <updated>2024-06-28T19:53:17Z</updated>
+    <published>2024-06-28T19:53:17Z</published>
+    <title>LLM Critics Help Catch LLM Bugs</title>
+    <summary>  Reinforcement learning from human feedback (RLHF) is fundamentally limited by
+the capacity of humans to correctly evaluate model output. To improve human
+evaluation ability and overcome that limitation this work trains "critic"
+models that help humans to more accurately evaluate model-written code. These
+critics are themselves LLMs trained with RLHF to write natural language
+feedback highlighting problems in code from real-world assistant tasks. On code
+containing naturally occurring LLM errors model-written critiques are preferred
+over human critiques in 63% of cases, and human evaluation finds that models
+catch more bugs than human contractors paid for code review. We further confirm
+that our fine-tuned LLM critics can successfully identify hundreds of errors in
+ChatGPT training data rated as "flawless", even though the majority of those
+tasks are non-code tasks and thus out-of-distribution for the critic model.
+Critics can have limitations of their own, including hallucinated bugs that
+could mislead humans into making mistakes they might have otherwise avoided,
+but human-machine teams of critics and contractors catch similar numbers of
+bugs to LLM critics while hallucinating less than LLMs alone.
+</summary>
+    <author>
+      <name>Nat McAleese</name>
+    </author>
+    <author>
+      <name>Rai Michael Pokorny</name>
+    </author>
+    <author>
+      <name>Juan Felipe Ceron Uribe</name>
+    </author>
+    <author>
+      <name>Evgenia Nitishinskaya</name>
+    </author>
+    <author>
+      <name>Maja Trebacz</name>
+    </author>
+    <author>
+      <name>Jan Leike</name>
+    </author>
+    <link href="http://arxiv.org/abs/2407.00215v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2407.00215v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.11901v1</id>
+    <updated>2024-09-18T11:54:45Z</updated>
+    <published>2024-09-18T11:54:45Z</published>
+    <title>LLMs + Persona-Plug = Personalized LLMs</title>
+    <summary>  Personalization plays a critical role in numerous language tasks and
+applications, since users with the same requirements may prefer diverse outputs
+based on their individual interests. This has led to the development of various
+personalized approaches aimed at adapting large language models (LLMs) to
+generate customized outputs aligned with user preferences. Some of them involve
+fine-tuning a unique personalized LLM for each user, which is too expensive for
+widespread application. Alternative approaches introduce personalization
+information in a plug-and-play manner by retrieving the user's relevant
+historical texts as demonstrations. However, this retrieval-based strategy may
+break the continuity of the user history and fail to capture the user's overall
+styles and patterns, hence leading to sub-optimal performance. To address these
+challenges, we propose a novel personalized LLM model, \ours{}. It constructs a
+user-specific embedding for each individual by modeling all her historical
+contexts through a lightweight plug-in user embedder module. By attaching this
+embedding to the task input, LLMs can better understand and capture user habits
+and preferences, thereby producing more personalized outputs without tuning
+their own parameters. Extensive experiments on various tasks in the language
+model personalization (LaMP) benchmark demonstrate that the proposed model
+significantly outperforms existing personalized LLM approaches.
+</summary>
+    <author>
+      <name>Jiongnan Liu</name>
+    </author>
+    <author>
+      <name>Yutao Zhu</name>
+    </author>
+    <author>
+      <name>Shuting Wang</name>
+    </author>
+    <author>
+      <name>Xiaochi Wei</name>
+    </author>
+    <author>
+      <name>Erxue Min</name>
+    </author>
+    <author>
+      <name>Yu Lu</name>
+    </author>
+    <author>
+      <name>Shuaiqiang Wang</name>
+    </author>
+    <author>
+      <name>Dawei Yin</name>
+    </author>
+    <author>
+      <name>Zhicheng Dou</name>
+    </author>
+    <link href="http://arxiv.org/abs/2409.11901v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2409.11901v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5979v3</id>
+    <updated>2013-02-08T14:03:07Z</updated>
+    <published>2012-08-29T18:20:53Z</published>
+    <title>Beyond LLM in M-theory</title>
+    <summary>  The Lin, Lunin, Maldacena (LLM) ansatz in D = 11 supports two independent
+Killing directions when a general Killing spinor ansatz is considered. Here we
+show that these directions always commute, identify when the Killing spinors
+are charged, and show that both their inner product and resulting geometry are
+governed by two fundamental constants. In particular, setting one constant to
+zero leads to AdS7 x S4, setting the other to zero gives AdS4 x S7, while flat
+spacetime is recovered when both these constants are zero. Furthermore, when
+the constants are equal, the spacetime is either LLM, or it corresponds to the
+Kowalski-Glikman solution where the constants are simply the mass parameter.
+</summary>
+    <author>
+      <name>Eoin Ó Colgáin</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP12(2012)023</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP12(2012)023" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">1+30 pages, footnote added</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1212 (2012) 023</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1208.5979v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.5979v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06586v1</id>
+    <updated>2018-06-18T10:30:20Z</updated>
+    <published>2018-06-18T10:30:20Z</published>
+    <title>Exciting LLM Geometries</title>
+    <summary>  We study excitations of LLM geometries. These geometries arise from the
+backreaction of a condensate of giant gravitons. Excitations of the condensed
+branes are open strings, which give rise to an emergent Yang-Mills theory at
+low energy. We study the dynamics of the planar limit of these emergent gauge
+theories, accumulating evidence that they are planar ${\cal N}=4$ super
+Yang-Mills. There are three observations supporting this conclusion: (i) we
+argue for an isomorphism between the planar Hilbert space of the original
+${\cal N}=4$ super Yang-Mills and the planar Hilbert space of the emergent
+gauge theory, (ii) we argue that the OPE coefficients of the planar limit of
+the emergent gauge theory vanish and (iii) we argue that the planar spectrum of
+anomalous dimensions of the emergent gauge theory is that of planar ${\cal
+N}=4$ super Yang-Mills. Despite the fact that the planar limit of the emergent
+gauge theory is planar ${\cal N}=4$ super Yang-Mills, we explain why the
+emergent gauge theory is not ${\cal N}=4$ super Yang-Mills theory.
+</summary>
+    <author>
+      <name>Robert de Mello Koch</name>
+    </author>
+    <author>
+      <name>Jia-Hui Huang</name>
+    </author>
+    <author>
+      <name>Laila Tribelhorn</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP07(2018)146</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP07(2018)146" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages plus Appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.06586v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.06586v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.19321v2</id>
+    <updated>2024-04-18T08:27:16Z</updated>
+    <published>2023-05-30T18:00:04Z</published>
+    <title>Chaotic LLM billiards</title>
+    <summary>  We study null geodesics of the ten-dimensional LLM geometries. In particular,
+we show that there are a subset of these null geodesics that are confined to
+the LLM plane. The effective dynamics of these in-plane geodesics is that of a
+Hamiltonian system with two degrees of freedom (a phase space of dimension 4).
+We show that these are chaotic. In the two-coloring of the LLM plane, if they
+start in the empty region, they cannot penetrate the filled region and
+viceversa. The dynamical problem is therefore very similar to that of a
+billiards problem with fixed obstacles. We study to what extent LLM geometries
+with many droplets may be treated as an incipient black hole and draw analogies
+with the fuzzball proposal.
+  We argue that for in-plane null geodesics deep in the interior of a region
+with a lot of droplets, in order to exit towards the $AdS$ boundary they will
+need to undergo a process that resembles diffusion. This mechanism can account
+for signals getting lost in the putative black hole for a very long time.
+</summary>
+    <author>
+      <name>David Berenstein</name>
+    </author>
+    <author>
+      <name>Elliot Maderazo</name>
+    </author>
+    <author>
+      <name>Robinson Mancilla</name>
+    </author>
+    <author>
+      <name>Anayeli Ramirez</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 8 figures, uses JHEP. v2: Typos corrected, references added</arxiv:comment>
+    <link href="http://arxiv.org/abs/2305.19321v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2305.19321v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.05481v2</id>
+    <updated>2023-08-11T07:55:19Z</updated>
+    <published>2023-08-10T10:12:43Z</published>
+    <title>LLM As DBA</title>
+    <summary>  Database administrators (DBAs) play a crucial role in managing, maintaining
+and optimizing a database system to ensure data availability, performance, and
+reliability. However, it is hard and tedious for DBAs to manage a large number
+of database instances (e.g., millions of instances on the cloud databases).
+Recently large language models (LLMs) have shown great potential to understand
+valuable documents and accordingly generate reasonable answers. Thus, we
+propose D-Bot, a LLM-based database administrator that can continuously acquire
+database maintenance experience from textual sources, and provide reasonable,
+well-founded, in-time diagnosis and optimization advice for target databases.
+This paper presents a revolutionary LLM-centric framework for database
+maintenance, including (i) database maintenance knowledge detection from
+documents and tools, (ii) tree of thought reasoning for root cause analysis,
+and (iii) collaborative diagnosis among multiple LLMs. Our preliminary
+experimental results that D-Bot can efficiently and effectively diagnose the
+root causes and our code is available at
+github.com/TsinghuaDatabaseGroup/DB-GPT.
+</summary>
+    <author>
+      <name>Xuanhe Zhou</name>
+    </author>
+    <author>
+      <name>Guoliang Li</name>
+    </author>
+    <author>
+      <name>Zhiyuan Liu</name>
+    </author>
+    <link href="http://arxiv.org/abs/2308.05481v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2308.05481v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.13308v1</id>
+    <updated>2023-09-23T08:46:11Z</updated>
+    <published>2023-09-23T08:46:11Z</published>
+    <title>Calibrating LLM-Based Evaluator</title>
+    <summary>  Recent advancements in large language models (LLMs) on language modeling and
+emergent capabilities make them a promising reference-free evaluator of natural
+language generation quality, and a competent alternative to human evaluation.
+However, hindered by the closed-source or high computational demand to host and
+tune, there is a lack of practice to further calibrate an off-the-shelf
+LLM-based evaluator towards better human alignment. In this work, we propose
+AutoCalibrate, a multi-stage, gradient-free approach to automatically calibrate
+and align an LLM-based evaluator toward human preference. Instead of explicitly
+modeling human preferences, we first implicitly encompass them within a set of
+human labels. Then, an initial set of scoring criteria is drafted by the
+language model itself, leveraging in-context learning on different few-shot
+examples. To further calibrate this set of criteria, we select the best
+performers and re-draft them with self-refinement. Our experiments on multiple
+text quality evaluation datasets illustrate a significant improvement in
+correlation with expert evaluation through calibration. Our comprehensive
+qualitative analysis conveys insightful intuitions and observations on the
+essence of effective scoring criteria.
+</summary>
+    <author>
+      <name>Yuxuan Liu</name>
+    </author>
+    <author>
+      <name>Tianchi Yang</name>
+    </author>
+    <author>
+      <name>Shaohan Huang</name>
+    </author>
+    <author>
+      <name>Zihan Zhang</name>
+    </author>
+    <author>
+      <name>Haizhen Huang</name>
+    </author>
+    <author>
+      <name>Furu Wei</name>
+    </author>
+    <author>
+      <name>Weiwei Deng</name>
+    </author>
+    <author>
+      <name>Feng Sun</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages,11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2309.13308v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2309.13308v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

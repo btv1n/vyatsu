@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №4</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<script>
+        var size = 10;
+				var state; // переменная для хранения атрибута class
+        document.write("<table>");
+        for (i = 1; i <= size; i++) // создает строки таблицы
+        {
+            document.write("<tr>") // новая строка таблицы
+            for(j = 1; j <= size; j++)
+            {
+                ceil = (i+j) // сумма координат текущей ячейки
+                if(ceil > size-1)
+                    state = "class = 'l2'";
+                else
+                    state = "class = 'l1'";
+                document.write("<td " + state +"></td>"); // создание ячейки с соответствующим классом
+            }
+            document.write("</tr>"); // закрывает строку
+        }
+        document.write("</table>"); // закрывает таблицу
+</script>
+
+
+    <br><br>
+
+
+<script>
+        var size = 10;
+				var state;
+        document.write("<table>");
+        for (i = 1; i <= size; i++)
+        {
+            document.write("<tr>")
+            for(j = 1; j <= size; j++)
+            {
+                if(i >= j)
+                    state = "class = 'c1'";
+                else
+                    state = "class = 'c2'";
+                document.write("<td " + state +"></td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+</script>
+
+
+    <br><br>
+
+
+<script>
+        var size = 10;
+				var state;
+        document.write("<table>");
+        for (i = 1; i <= size; i++)
+        {
+            document.write("<tr>")
+            for(j = 1; j <= size; j++)
+            {
+                if((i+j) % 4==0)
+                    state = "class = 'r1'";
+                else
+                    state = "class = 'r2'";
+                document.write("<td " + state +"></td>");
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+</script>
+
+</body>
+</html>

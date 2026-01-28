@@ -1,0 +1,78 @@
+<body>
+</body>
+
+<script>
+	/* Функция определяет, существует ли дружба между двумя людьми в пределах заданной степени n через цепочку общих друзей.
+	peopleArray - массив, содержащий людей и их друзей
+	name1 - имя первого человека
+	name2 - имя второго человека
+	n - количество шагов
+	true - если связь найдена за n или меньше шагов, иначе false
+	 */
+		function hasFriendshipDegree(peopleArray, name1, name2, n) {
+			// Если имена одинаковые, связь есть за 0 шагов
+			if (name1 === name2) return true
+
+			// Создаем карту друзей для быстрого доступа
+			// пример:  "Анна": ["Борис", "Виктор"]
+			const friendsMap = {}
+			for (const person of peopleArray) {
+				friendsMap[person.name] = person.friends
+			}
+
+			// Проверяем, существуют ли оба человека
+			if (!friendsMap[name1] || !friendsMap[name2]) {
+				console.log("Один из людей не найден: name1 = ${name1}, name2 = ${name2}")
+				return false
+			}
+
+			// BFS для нахождения кратчайшего пути
+			const queue = [{ name: name1, distance: 0 }]
+			const visited = new Set()
+			visited.add(name1)
+
+			while (queue.length > 0) {
+				const current = queue.shift() // возвращает первый элемент из очереди и удаляет его
+
+				// Если достигли name2 за n шагов или менее, вернуть true
+				if (current.name === name2 && current.distance <= n) {
+					return true
+				}
+
+				// Если превысили допустимое расстояние, пропустить
+				if (current.distance >= n) continue
+
+				// Добавляем всех друзей текущего человека в очередь
+				const friends = friendsMap[current.name] || [] // если у человека нет друзей берется пустой массив
+				for (const friend of friends)  // проходимся по каждому другу
+				{
+					if (!visited.has(friend)) // проверяем, посещали ли мы человека
+					{
+						visited.add(friend)
+						queue.push({ name: friend, distance: current.distance + 1 })
+					}
+				}
+			}
+
+			// Если не нашли связь за n шагов
+			return false
+		}
+
+		// Люди и их друзья
+		const people = [
+			{ name: "Анна", friends: ["Борис", "Виктор"] },
+			{ name: "Борис", friends: ["Анна", "Галина"] },
+			{ name: "Виктор", friends: ["Анна", "Дмитрий"] },
+			{ name: "Галина", friends: ["Борис", "Елена"] },
+			{ name: "Дмитрий", friends: ["Виктор"] },
+			{ name: "Елена", friends: ["Галина"] }
+		]
+
+		// Проверяем связи
+		console.log(hasFriendshipDegree(people, "Анна", "Елена", 3))   // true - 3 шага - Анна -> Борис -> Галина -> Елена 
+		console.log(hasFriendshipDegree(people, "Анна", "Елена", 2))   // false - нужно 3 шага
+		console.log(hasFriendshipDegree(people, "Анна", "Дмитрий", 2)) // true - 2 шага - Анна -> Виктор -> Дмитрий
+</script>
+
+<style>
+</style>

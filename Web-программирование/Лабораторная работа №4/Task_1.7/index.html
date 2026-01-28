@@ -1,0 +1,83 @@
+<body>
+	<p id="result"></p>
+</body>
+
+<script>
+	function countWorkingDays(month, year, holidays) {
+			let workingDays = 0
+
+			// month в JS: 0 - январь, 11 - декабрь
+			const daysInMonth = new Date(year, month, 0).getDate() // определяет количество дней в месяце
+
+			for (let day = 1; day <= daysInMonth; day++) {
+				const date = new Date(year, month - 1, day)
+				const dayOfWeek = date.getDay() // 0 - воскресенье, 6 - суббота
+
+				// Проверяем выходной
+				const isWeekend = dayOfWeek === 0 || dayOfWeek === 6
+
+				// Проверяем праздник
+				const isHoliday = holidays.some(
+					h => h.day === day && h.month === month
+				)
+
+				if (!isWeekend && !isHoliday) {
+					workingDays++
+				}
+			}
+
+			return workingDays
+		}
+
+		// Праздники на 2025, установленные трудовым кодексом РФ.
+		const holidays = [
+					{ day: 1, month: 1 },  // Новый год
+					{ day: 2, month: 1 },  // Новогодние каникулы
+					{ day: 3, month: 1 },  // Новогодние каникулы
+					{ day: 4, month: 1 },  // Новогодние каникулы
+					{ day: 5, month: 1 },  // Новогодние каникулы
+					{ day: 6, month: 1 },  // Новогодние каникулы
+					{ day: 7, month: 1 },  // Рождество Христово
+					{ day: 8, month: 1 },  // Новогодние каникулы
+
+					{ day: 23, month: 2 }, // День защитника Отечества
+
+					{ day: 8, month: 3 },  // Международный женский день
+
+					{ day: 1, month: 5 },  // Праздник Весны и Труда
+					{ day: 9, month: 5 },  // День Победы
+
+					{ day: 12, month: 6 }, // День России
+
+					{ day: 4, month: 11 }  // День народного единства
+				];
+
+
+			// const month = 5 // май
+			const month = Number(prompt("Введите месяц (1–12):"));
+			const year = 2025
+
+			const result = countWorkingDays(month, year, holidays)
+			console.log("Количество рабочих дней: ", result);
+			document.getElementById("result").textContent = `Количество рабочих дней: ${result}`;
+
+</script>
+
+<style>
+		#result::before {
+			content: "📅 ";
+		}
+
+		#result {
+				display: inline-block;
+				margin-top: 15px;
+				padding: 12px 18px;
+				font-size: 50px;
+				font-weight: 600;
+				color: #2c3e50;
+				background-color: #f4f6f8;
+				border-left: 5px solid #3498db;
+				border-radius: 6px;
+		}
+
+</style>

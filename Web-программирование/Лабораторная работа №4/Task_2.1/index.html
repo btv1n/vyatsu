@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Лабораторная работа №4</title>
+</head>
+
+<body>
+	<div class="container">
+	</div>
+
+	<script>
+		function filerByRange(arr, a, b) {
+				// item => - текущий элемент массива
+				return arr.filter(item => item >= a && item <= b)
+			}
+
+			// Пример использования:
+			const arr = [1, 5, 10, 15, 20, 25]
+			const result = filerByRange(arr, 10, 20)
+			console.log(result) // [10, 15, 20]
+			console.log(arr)    // [1, 5, 10, 15, 20, 25] — исходный массив не изменился
+	</script>
+</body>
+
+</html>

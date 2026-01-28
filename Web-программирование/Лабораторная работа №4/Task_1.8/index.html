@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Лабораторная работа №4</title>
+</head>
+
+<body>
+	<div class="container">
+	</div>
+
+	<script>
+		/**
+		 * Функция поиска пути
+		 * cities - массив маршрутов между городами с расстояниями
+		 * orders - массив заказов с информацией о доставке
+		 * object - общее расстояние и список недоставленных заказов
+		 */
+		function findRoute(cities, orders) {
+			// Строим граф городов для поиска маршрутов
+			const graph = {}
+
+			// Добавляем все города в граф в обе стороны, так как он двунаправленный
+			cities.forEach(route => {
+				if (!graph[route.from]) graph[route.from] = []
+				if (!graph[route.to]) graph[route.to] = []
+
+				graph[route.from].push({ city: route.to, distance: route.distance })
+				graph[route.to].push({ city: route.from, distance: route.distance })
+			})
+
+			/** Алгоритм Дейкстры
+			 * start - город отправления
+			 * end - город назначения
+			 * object | null - объект с расстоянием и маршрутом или null, если маршрута нет
+			 */
+			function findShortestPath(start, end) {
+				// Если города не существуют в графе
+				if (!graph[start] || !graph[end]) return null
+
+				// Если начальный и конечный город одинаковые
+				if (start === end) return { distance: 0, path: [start] }
+
+				// Инициализация
+				const distances = {}
+				const previous = {}
+				const visited = new Set()
+				const priorityQueue = []
+
+				// Устанавливаем начальные расстояния
+				for (const city in graph) {
+					distances[city] = city === start ? 0 : Infinity
+					previous[city] = null
+				}
+
+				// Добавляем стартовый город в очередь
+				priorityQueue.push({ city: start, distance: 0 })
+
+				// Основной цикл Дейкстры
+				while (priorityQueue.length > 0) {
+					// Сортируем очередь по расстоянию (примитивная реализация приоритетной очереди)
+					priorityQueue.sort((a, b) => a.distance - b.distance)
+					const { city: currentCity } = priorityQueue.shift()
+
+					// Если уже посетили этот город, пропускаем
+					if (visited.has(currentCity)) continue
+					visited.add(currentCity)
+
+					// Если дошли до конечного города
+					if (currentCity === end) break
+
+					// Проверяем всех соседей текущего города
+					for (const neighbor of graph[currentCity]) {
+						if (!visited.has(neighbor.city)) {
+							const newDistance = distances[currentCity] + neighbor.distance
+
+							// Если нашли более короткий путь
+							if (newDistance < distances[neighbor.city]) {
+								distances[neighbor.city] = newDistance
+								previous[neighbor.city] = currentCity
+								priorityQueue.push({ city: neighbor.city, distance: newDistance })
+							}
+						}
+					}
+				}
+
+				// Если не нашли путь до конечного города
+				if (distances[end] === Infinity) return null
+
+				// Восстанавливаем путь
+				const path = []
+				let current = end
+				while (current !== null) {
+					path.unshift(current)
+					current = previous[current]
+				}
+
+				
+				return {
+					distance: distances[end],
+					path: path
+				}
+			}
+
+			// Обработка заказа
+			let totalDistance = 0
+			const undeliverableOrders = []
+
+			orders.forEach(order => {
+				const pathInfo = findShortestPath(order.from, order.to)
+
+				if (pathInfo) {
+					// Маршрут существует, добавляем расстояние
+					totalDistance += pathInfo.distance
+					console.log(`Заказ #${order.id}: ${order.from} -> ${order.to} (${pathInfo.distance} км)`)
+					console.log(`  Маршрут: ${pathInfo.path.join(' -> ')}`)
+				} else {
+					// Маршрут не существует
+					undeliverableOrders.push(order)
+					console.log(`Заказ #${order.id}: нельзя доставить ${order.from} -> ${order.to}`)
+				}
+			})
+
+			return {
+				totalDistance: totalDistance,
+				undeliverableOrders: undeliverableOrders
+			}
+		}
+
+		// Пример использования:
+		const cities = [
+			{ from: "Москва", to: "Санкт-Петербург", distance: 700 },
+			{ from: "Москва", to: "Нижний Новгород", distance: 400 },
+			{ from: "Санкт-Петербург", to: "Нижний Новгород", distance: 900 },
+			{ from: "Нижний Новгород", to: "Казань", distance: 300 }
+		]
+
+		const orders = [
+			{ id: 1, from: "Москва", to: "Нижний Новгород", weight: 50 },
+			{ id: 2, from: "Москва", to: "Казань", weight: 30 },
+			{ id: 3, from: "Санкт-Петербург", to: "Казань", weight: 20 }
+		]
+		const result = findRoute(cities, orders)
+
+		console.log("\n Результат выполнения #1:")
+		console.log("Общее расстояние:", result.totalDistance)
+		console.log("Недоставленные заказы:", result.undeliverableOrders)
+
+
+		// Пример использования с заказом, который нельзя доставить
+
+		const cities2 = [
+			{ from: "Москва", to: "Санкт-Петербург", distance: 700 },
+			{ from: "Москва", to: "Нижний Новгород", distance: 400 }
+		]
+
+		const orders2 = [
+			{ id: 1, from: "Москва", to: "Санкт-Петербург", weight: 50 },
+			{ id: 2, from: "Москва", to: "Казань", weight: 30 }, // Недоступно!
+			{ id: 3, from: "Санкт-Петербург", to: "Нижний Новгород", weight: 20 }
+		]
+
+		const result2 = findRoute(cities2, orders2)
+		console.log("\n Результат выполнения #2:")
+		console.log("Общее расстояние:", result2.totalDistance)
+		console.log("Недоставленные заказы:", result2.undeliverableOrders.map(o => `#${o.id}`));
+	</script>
+</body>
+
+</html>

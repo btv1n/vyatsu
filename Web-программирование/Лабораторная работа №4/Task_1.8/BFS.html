@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Лабораторная работа №4</title>
+</head>
+
+<body>
+	<div class="container">
+	</div>
+
+	<script>
+		// Список маршрутов между городами
+		const cities = [
+			{ from: "Москва", to: "Санкт-Петербург", distance: 700 },
+			{ from: "Москва", to: "Нижний Новгород", distance: 400 },
+			{ from: "Санкт-Петербург", to: "Нижний Новгород", distance: 900 },
+			{ from: "Нижний Новгород", to: "Казань", distance: 300 },
+			// { from: "Нижний Новгород", to: "Киров", distance: 600 },
+		]
+
+		// Список заказов
+		const orders = [
+			{ id: 1, from: "Москва", to: "Нижний Новгород", weight: 50 },
+			{ id: 2, from: "Москва", to: "Казань", weight: 30 },
+			{ id: 3, from: "Санкт-Петербург", to: "Казань", weight: 20 },
+			// { id: 4, from: "Казань", to: "Москва", weight: 25 },
+			// { id: 5, from: "Киров", to: "Москва", weight: 25 },
+			// { id: 6, from: "Москва", to: "Киров", weight: 25 },
+		]
+
+		// Создает Map городов
+		// Map: ключ - город отправления ; значение - Map городов назначения и расстояний
+		// "Москва" => { "Санкт-Петербург" => 700, "Нижний Новгород" => 400 }
+		function makeMap(cities)
+		{
+			const map = new Map()
+
+			for (const city of cities)
+			{
+				const { from, to, distance } = city
+				/*
+				const from = city.from;
+				const to = city.to;
+				const distance = city.distance;
+				*/
+
+				// Если для города отправление нет записи - создаем ее
+				// Иначе просто добавляем новый маршрут
+				if (!map.has(from))
+					map.set(from, new Map([[to, distance]]))
+				else
+					map.get(from).set(to, distance)
+			}
+
+			return map
+		}
+
+		// Рекурсивный поиск маршрутом между двумя городами
+		// Map - карта маршрутов ; from - город отправления ; to - город назначения
+		function findRoute(map, from, to) 
+		{
+			const routes = map.get(from)
+
+			// Если из города нет маршрутов
+			if (!routes)
+				return 0
+
+			// Если есть прямой маршрут - вернет расстояние
+			if (routes.has(to))
+				return routes.get(to)
+
+			// Иначе пробуем идти через соседние города
+			for (const [city, distance] of routes) 
+			{
+				const route = findRoute(map, city, to)
+
+				// Если маршрут найден - суммируем расстояние
+				if (route) return distance + route
+
+			}
+
+			// Путь не найден
+			return 0
+		}
+
+
+		const map = makeMap(cities)
+
+		const result = {
+			totalDistance: 0,
+			undeliverableOrders: []
+		}
+
+		// Обрабатываем каждый заказ
+		for (const { id, from, to, weight } of orders) 
+		{
+			const distance = findRoute(map, from, to)
+
+			// Если маршрут существует - добавляем расстояние
+			// Если маршруте не существует - добавляем заказ в недоставляемые
+			if (distance) 
+			{
+				result.totalDistance += distance
+				console.log(from, to, distance)
+			}
+			else
+				result.undeliverableOrders.push(id)
+		}
+
+		console.log(map)
+
+		console.log(result);
+
+	</script>
+</body>
+
+</html>

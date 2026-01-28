@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Теги блога</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .tag-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .tag-pair {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+        }
+
+        .add-tag-form {
+            margin: 20px 0;
+        }
+
+        input,
+        button {
+            padding: 8px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Парные теги блога</h1>
+
+    <div class="add-tag-form">
+        <input type="text" id="newTag" placeholder="Введите новый тег">
+        <button onclick="addTag()">Добавить тег</button>
+    </div>
+
+    <div id="tagGrid" class="tag-grid"></div>
+
+    <script>
+        // Исходный массив тегов
+        let tags = ["JavaScript", "CSS", "HTML", "React", "JavaScript", "Node.js", "CSS"];
+
+        // Функция для удаления дубликатов
+        function removeDuplicates(arr) {
+            return [...new Set(arr)];
+        }
+
+        // Функция для создания всех возможных пар
+        function createPairs(arr) {
+            const pairs = [];
+            for (let i = 0; i < arr.length; i++) {
+                for (let j = i + 1; j < arr.length; j++) {
+                    pairs.push([arr[i], arr[j]]);
+                }
+            }
+            return pairs;
+        }
+
+        // Функция для сортировки пар по алфавиту
+        function sortPairs(pairs) {
+            return pairs.map(pair => [...pair].sort()).sort((a, b) => {
+                if (a[0] === b[0]) {
+                    return a[1].localeCompare(b[1]);
+                }
+                return a[0].localeCompare(b[0]);
+            });
+        }
+
+        // Функция для отображения сетки тегов
+        function renderTagGrid() {
+            // Очищаем предыдущее содержимое
+            const grid = document.getElementById('tagGrid');
+            grid.innerHTML = '';
+
+            // Обрабатываем теги
+            const uniqueTags = removeDuplicates(tags);
+            const pairs = createPairs(uniqueTags);
+            const sortedPairs = sortPairs(pairs);
+
+            // Создаем элементы сетки
+            sortedPairs.forEach(pair => {
+                const pairElement = document.createElement('div');
+                pairElement.className = 'tag-pair';
+                pairElement.textContent = `[${pair[0]}, ${pair[1]}]`;
+                grid.appendChild(pairElement);
+            });
+        }
+
+        // Функция для добавления нового тега
+        function addTag() {
+            const newTagInput = document.getElementById('newTag');
+            const newTag = newTagInput.value.trim();
+
+            if (newTag && !tags.includes(newTag)) {
+                tags.push(newTag);
+                renderTagGrid();
+                newTagInput.value = ''; // Очищаем поле ввода
+            } else if (tags.includes(newTag)) {
+                alert('Такой тег уже существует!');
+            }
+        }
+
+        // Инициализация при загрузке страницы
+        window.onload = renderTagGrid;
+    </script>
+</body>
+
+</html>

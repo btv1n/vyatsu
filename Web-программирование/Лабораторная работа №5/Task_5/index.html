@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор цитат</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .quote-container {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .quote-text {
+            font-size: 1.2em;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .quote-author {
+            font-weight: bold;
+            text-align: right;
+            color: #555;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-right: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .favorites {
+            margin-top: 30px;
+        }
+        .favorite-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .favorite-item:hover {
+            background-color: #f0f0f0;
+        }
+        .remove-btn {
+            background-color: #f44336;
+            padding: 5px 10px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+        .remove-btn:hover {
+            background-color: #d32f2f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Генератор случайных цитат</h1>
+    
+    <div class="quote-container">
+        <div id="quoteDisplay">
+            <p class="quote-text">Нажмите кнопку, чтобы сгенерировать цитату</p>
+            <p class="quote-author"></p>
+        </div>
+        <button id="generateBtn">Сгенерировать цитату</button>
+        <button id="addToFavoritesBtn">Добавить в избранное</button>
+    </div>
+    
+    <div class="favorites">
+        <h2>Избранные цитаты</h2>
+        <div id="favoritesList"></div>
+    </div>
+
+    <script>
+        // Массив цитат
+        const quotes = [
+            {
+                text: "Жизнь — это то, что происходит с тобой, пока ты строишь другие планы.",
+                author: "Джон Леннон"
+            },
+            {
+                text: "Единственный способ сделать великую работу — любить то, что ты делаешь.",
+                author: "Стив Джобс"
+            },
+            {
+                text: "Будь тем изменением, которое ты хочешь видеть в мире.",
+                author: "Махатма Ганди"
+            },
+            {
+                text: "Успех — это способность идти от неудачи к неудаче, не теряя энтузиазма.",
+                author: "Уинстон Черчилль"
+            },
+            {
+                text: "Мы — это то, что мы делаем постоянно. Совершенство, следовательно, не действие, а привычка.",
+                author: "Аристотель"
+            },
+            {
+                text: "Два самых важных дня в твоей жизни: день, когда ты появился на свет, и день, когда понял зачем.",
+                author: "Марк Твен"
+            }
+        ];
+
+        // Переменные для хранения текущего состояния
+        let currentQuote = null;
+        let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+        // Элементы DOM
+        const quoteDisplay = document.getElementById('quoteDisplay');
+        const generateBtn = document.getElementById('generateBtn');
+        const addToFavoritesBtn = document.getElementById('addToFavoritesBtn');
+        const favoritesList = document.getElementById('favoritesList');
+
+        // Функция для генерации случайной цитаты
+        function generateRandomQuote() {
+            const randomIndex = Math.floor(Math.random() * quotes.length);
+            currentQuote = quotes[randomIndex];
+            
+            quoteDisplay.innerHTML = `
+                <p class="quote-text">"${currentQuote.text}"</p>
+                <p class="quote-author">— ${currentQuote.author}</p>
+            `;
+        }
+
+        // Функция для добавления цитаты в избранное
+        function addToFavorites() {
+            if (!currentQuote) return;
+            
+            // Проверяем, нет ли уже этой цитаты в избранном
+            const isAlreadyAdded = favorites.some(
+                quote => quote.text === currentQuote.text && quote.author === currentQuote.author
+            );
+            
+            if (!isAlreadyAdded) {
+                favorites.push(currentQuote);
+                saveFavorites();
+                renderFavorites();
+            } else {
+                alert('Эта цитата уже в избранном!');
+            }
+        }
+
+        // Функция для удаления цитаты из избранного
+        function removeFromFavorites(index) {
+            favorites.splice(index, 1);
+            saveFavorites();
+            renderFavorites();
+        }
+
+        // Функция для сохранения избранного в localStorage
+        function saveFavorites() {
+            localStorage.setItem('favorites', JSON.stringify(favorites));
+        }
+
+        // Функция для отображения списка избранного
+        function renderFavorites() {
+            favoritesList.innerHTML = '';
+            
+            if (favorites.length === 0) {
+                favoritesList.innerHTML = '<p>У вас пока нет избранных цитат</p>';
+                return;
+            }
+            
+            favorites.forEach((quote, index) => {
+                const favoriteItem = document.createElement('div');
+                favoriteItem.className = 'favorite-item';
+                favoriteItem.innerHTML = `
+                    <p class="quote-text">"${quote.text}"</p>
+                    <p class="quote-author">— ${quote.author}</p>
+                `;
+                
+                // Добавляем кнопку удаления
+                const removeBtn = document.createElement('button');
+                removeBtn.className = 'remove-btn';
+                removeBtn.textContent = 'Удалить';
+                removeBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    removeFromFavorites(index);
+                };
+                
+                favoriteItem.appendChild(removeBtn);
+                
+                // Добавляем обработчик для изменения цвета
+                favoriteItem.addEventListener('click', () => {
+                    const randomColor = getRandomColor();
+                    favoriteItem.style.backgroundColor = randomColor;
+                });
+                
+                favoritesList.appendChild(favoriteItem);
+            });
+        }
+
+        // Функция для генерации случайного цвета
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Назначаем обработчики событий
+        generateBtn.addEventListener('click', generateRandomQuote);
+        addToFavoritesBtn.addEventListener('click', addToFavorites);
+
+        // Инициализация при загрузке страницы
+        renderFavorites();
+    </script>
+</body>
+</html>

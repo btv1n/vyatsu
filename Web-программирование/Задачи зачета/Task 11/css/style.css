@@ -1,0 +1,17 @@
+body {
+		padding: 10px;
+    width: 1200px;
+    margin: auto; /* Выравниваем по центру */
+}
+
+.content {
+	text-align: center;
+}
+
+ol#menu li {
+	display: inline;
+}
+
+li {
+	padding: 10px;
+}

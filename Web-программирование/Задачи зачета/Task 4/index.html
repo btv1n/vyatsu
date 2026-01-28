@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Task 4</title>
+	<style>
+		.container {
+			margin: 0 auto;
+			max-width: 200px;
+		}
+
+		/* even - четные */
+		li:nth-child(even) {
+			text-decoration: underline;
+		}
+
+		/* в начало списка */
+		li:last-child::after {
+			content: "Клавиатура";
+		}
+
+		/* в конец списка */
+		li:first-child::before {
+			content: "Видеокарта";
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<ul class="list">
+			<li></li> <!-- Видеокарта -->
+			<li>Процессор</li>
+			<li>Материнская плата</li>
+			<li>Жесткий диск</li>
+			<li>Монитор</li>
+			<li>Мышь</li>
+			<li></li> <!-- Клавиатура -->
+		</ul>
+	</div>
+</body>
+</html>

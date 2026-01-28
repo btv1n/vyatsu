@@ -1,0 +1,31 @@
+
+body {
+    width: 200px;
+    margin: auto; /* Выравниваем по центру */
+}
+
+.container {
+    margin: 200px 0px;
+    text-align: center; 
+}
+
+.frame {
+	border: 1px dashed #000;
+	width: 300px;
+	padding: 20px;
+	
+}
+
+a {
+	color: red;
+}
+
+.select {
+	text-decoration: underline;
+	text-align: right;
+}
+
+.bold {
+	font-weight: 700;
+	text-align: right;
+}

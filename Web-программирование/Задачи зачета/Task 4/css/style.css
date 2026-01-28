@@ -1,0 +1,18 @@
+.container {
+	  margin: 0 auto; /* Выравниваем по центру */
+		max-width: 200px;
+}
+
+.ul:nth-child(odd) {
+	color:red;
+}
+
+.select {
+	text-decoration: underline;
+	text-align: right;
+}
+
+.bold {
+	font-weight: 700;
+	text-align: right;
+}

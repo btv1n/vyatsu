@@ -1,0 +1,40 @@
+body {
+    width: 200px;
+    margin: auto; /* Выравниваем по центру */
+}
+
+.container {
+    margin: 200px 0px;
+    text-align: center; 
+}
+
+/* Убирает стандартные стили списка */
+.checkbox-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Отступы между пунктами */
+.checkbox-list li {
+  margin-bottom: 10px;
+}
+
+/* Скрывает стандартный чекбокс */
+.checkbox-list input[type="checkbox"] {
+
+  /* Невыделенное состояние */
+  box-shadow: 0 0 5px 2px pink;
+  border: 5px solid pink;
+}
+
+/* Выделенное состояние */
+.checkbox-list input[type="checkbox"]:checked {
+  box-shadow: 0 0 5px 2px orange;
+  border-color: orange;
+}
+
+/* Кликабельный label */
+.checkbox-list label {
+  cursor: pointer;
+  font-size: 16px;
+}

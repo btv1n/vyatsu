@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="color-scheme" content="light dark">
+<style>
+  :root { color-scheme: light dark; --bg: pink; --fg: darkblue; }
+  body { background: var(--bg); color: var(--fg); }
+
+  label::after { content: "Тёмная тема"; }
+  label:has(> input:checked)::after { content: "Светлая тема"; }</style>
+</style>
+</head>
+<body>
+<label>
+  <input id="theme-toggle" type="checkbox">
+</label>
+<script>
+const myCheckbox = document.getElementById('theme-toggle');
+myCheckbox.addEventListener('change', function(event) {
+  if (event.target.checked) {
+    document.querySelector(':root').style.setProperty("--bg", "green")
+    document.querySelector(':root').style.setProperty("--fg", "yellow")
+  } else {
+    document.querySelector(':root').style.setProperty("--bg", "pink")
+    document.querySelector(':root').style.setProperty("--fg", "darkblue")
+  }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="color-scheme" content="light dark">
+<style>
+  :root { color-scheme: light dark; --bg: pink; --fg: darkblue; }
+  body { background: var(--bg); color: var(--fg); }
+
+  html:has(#theme-toggle:checked) {
+    --bg: green;
+    --fg: yellow;
+  }
+
+label::after { content: "Тёмная тема"; }
+label:has(> input:checked)::after { content: "Светлая тема"; }</style>
+</head>
+<body>
+<label>
+  <input id="theme-toggle" type="checkbox">
+</label>
+</body>
+</html>

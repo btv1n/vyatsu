@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Афиша города</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/reset styles.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-container">
+  <div class="wrapper">
+    <!-- Шапка с навигацией -->
+    <header>
+      <div class="page-name">Город</div>
+      <nav class="nav">
+        <a>
+					<div class="theme-switcher">
+						<input type="checkbox" id="dark-theme" class="theme-toggle">
+						<label for="dark-theme" class="theme-label">☀️ / 🌙</label>
+					</div>
+				</a>
+        <a href="#">События</a>
+        <a href="#">Места</a>
+        <a href="#">Билеты</a>
+        <a href="#">О нас</a>
+      </nav>
+    </header>
+
+    <!-- Блок фильтров -->
+    <aside class="sidebar">
+      <section class="filters">
+        <h2>Фильтры</h2>
+        <div class="filters-wrapper">
+          <label for="data">Дата</label>
+          <input type="date" class="filters-date">
+        </div>
+        <div class="filters-wrapper">
+          <label for="category">Категории</label>
+          <select class="filters-list">
+            <option value="all">Все категории</option>
+            <option value="Concerts">Концерты</option>
+            <option value="Exhibitions">Выставки</option>
+            <option value="Theater">Театр</option>
+            <option value="Sport">Спорт</option>
+            <option value="Festivals">Фестивали</option>
+          </select>
+        </div>
+
+        <!-- Блок тегов -->
+        <div class="filters-tags">
+          <div class="filters-tag">#бесплатно</div>
+          <div class="filters-tag">#семья</div>
+          <div class="filters-tag">#вечером</div>
+          <div class="filters-tag">#дети</div>
+        </div>
+        </section>
+      </aside>
+
+      <!-- Сетка карточек событий -->
+      <main class="content">
+        <div class="cards-container">
+          <section class="cards">
+            <article class="card">
+              <div class="card-body">
+                <h4>Джаз в парке</h4>
+                <div class="card-description">Суббота, 19:00 — Центральный парк</div>
+                <div class="card-footer">
+                  <div class="card-price">Бесплатно</div>
+                  <button class="card-button">Подробнее</button>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section class="cards">
+            <article class="card">
+              <div class="card-body">
+                <h4>Джаз в парке</h4>
+                <div class="card-description">Суббота, 19:00 — Центральный парк</div>
+                <div class="card-footer">
+                  <div class="card-price">Бесплатно</div>
+                  <button class="card-button">Подробнее</button>
+                </div>
+              </div>
+            </article>
+          </section>
+          <section class="cards">
+            <article class="card">
+              <div class="card-body">
+                <h4>Джаз в парке</h4>
+                <div class="card-description">Суббота, 19:00 — Центральный парк</div>
+                <div class="card-footer">
+                  <div class="card-price">Бесплатно</div>
+                  <button class="card-button">Подробнее</button>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </main>
+
+        <!-- Подвал -->
+        <footer>
+            <div class="copyright">© 2025 Афиша города</div>
+        </footer>
+    </div>
+</body>
+</html>

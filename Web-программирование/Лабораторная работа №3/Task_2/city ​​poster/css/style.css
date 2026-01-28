@@ -1,0 +1,261 @@
+/* CSS переменные для темы */
+:root {
+    --bg-color: #F0F0F0;
+    --text-color: #F0F0F0;
+    --button-bg: #5AA9E6;
+		--content-bg: linear-gradient(135deg, #192650, #3558d1);
+}
+
+
+.theme-container:has(#dark-theme:checked) {
+    --bg-color: #302f2f;
+    --text-color: #868686;
+    --button-bg: #11275e;
+		--content-bg: linear-gradient(135deg, #192650, rgb(28, 34, 46));
+}
+
+
+* {
+    box-sizing: border-box; /*включает padding и border в общую ширину/высоту элементов*/
+    /*убирает стандартные отступы браузера*/
+    margin: 0;
+    padding: 0;
+}
+
+
+/* html и body задает на всю высоту для flex/grid*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--bg-color);
+    /* color: #F0F0F0; */
+		color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*для растяжения на весь экран*/
+    /* transition: background-color 0.3s, color 0.3s; плавный переход цветов при смене темы */
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 280px 1fr; /*колонки для сайдбара и контейнера*/
+    grid-template-rows: auto 1fr auto; /*строки*/
+    min-height: 100vh;
+    gap: 20px; /*расстояние между ячейками сетки */
+}
+/* Привязка блоков к областям сетки */
+header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.content { grid-area: content; }
+footer { grid-area: footer; }
+
+
+header {
+    background-color: #111521;     /* цвет фона шапки */
+    color: #F0F0F0;                /* цвет текста */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;             /* вертикальное выравнивание по центру */
+    position: relative;
+}
+
+
+/* Название страницы в шапке */
+.page-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+		color: var(--text-color);
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}
+
+
+/* Навигация в шапке */
+.nav {
+    display: flex;
+    gap: 20px; /* расстояние между ссылками */
+}
+
+
+.nav a {
+		color: var(--text-color);
+    text-decoration: none; /* убираем подчеркивание */
+    padding: 5px 10px;
+    border-radius: 10px;
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}
+
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* фон при наведении */
+}
+
+
+/* Боковая панель с фильтрами */
+.sidebar {
+    margin: 0 0 0 30px; /* отступ слева */
+}
+
+
+/* Карточка фильтров */
+.filters {
+    height: 95%;              /* занимает 90% высоты sidebar */
+    background: #141A2A;
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;         /* фиксируется при прокрутке */
+    top: 20px;                /* отступ сверху */
+}
+
+
+/* Заголовок фильтров */
+.filters h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+
+/* Дата и категории в одной строке */
+.filters-wrapper {
+    display: flex;           /* выстраивает label и input/select в ряд */
+    align-items: center;     /* вертикальное выравнивание */
+    gap: 10px;               /* расстояние между label и полем */
+    margin-bottom: 16px;
+}
+
+
+/* Поля даты и категорий */
+.filters-date, 
+.filters-list {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid black;
+    background: var(--bg-color);
+    color: black;
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}
+
+
+.filters-tags {
+    display: flex;
+    flex-wrap: wrap; /* перенос тегов на новую строку при нехватке места */
+    gap: 8px;
+    margin-top: 16px;
+}
+
+
+.filters-tag {
+    background: #1A2236;
+    color: var(--text-color);
+    border-radius: 15px;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}
+.filters-tag:hover {
+    background: #2b55be;
+}
+
+
+.content {
+    height: 95%; /*ширина блока*/
+    padding: 0;
+    background: var(--content-bg); /* градиентный фон */
+    border-radius: 10px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto; /* включает горизонтальную прокрутку при необходимости */
+}
+
+
+.cards-container {
+    justify-content: flex-end;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr; /* одна колонка */
+    grid-auto-rows: min-content; /* высота строк под содержимое */
+    align-content: start; /* выравнивание карточек по верху */
+}
+
+
+.card {
+    background: #141A2A;
+    overflow: hidden;
+    overflow-x: auto; /* горизонтальная прокрутка для контента */
+		margin-top: 10px;
+}
+
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.card h4 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+
+.card-description {
+    font-size: 0.9rem;
+    opacity: 0.8;
+    padding: 10px 0px;
+}
+
+
+.card-footer {
+    display: flex;
+    justify-content: space-between; /* слева текст, справа кнопка */
+    align-items: center;
+    padding: 15px 0px 5px 0px;
+    border-top: 1px solid #1F2A45;
+    flex-wrap: wrap; /* перенос элементов на новую строку при нехватке места */
+}
+
+
+.card-button {
+    align-self: flex-start;
+    background: var(--button-bg);
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}
+.card-button:hover {
+    background: red;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #111521;
+    color: var(--text-color);
+    padding: 20px 0;
+		transition: background-color 1s ease, color 1s ease; /*плавный переход цветов при смене темы*/
+}

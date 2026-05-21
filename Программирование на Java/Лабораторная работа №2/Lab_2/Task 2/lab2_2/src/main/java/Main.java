@@ -56,7 +56,6 @@ public class Main {
             doc.open();
             articles[0].toPdf(doc);
         } catch (Exception e) {
-            // TODO: handle exception
         } finally {
             doc.close();
         }

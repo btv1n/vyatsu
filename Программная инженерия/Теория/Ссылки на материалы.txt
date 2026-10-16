@@ -1,0 +1,29 @@
+● ОПИ (МиСПО) #1. Жизненный цикл ПО. - https://www.youtube.com/watch?v=wWea876rbBs&list=PLBWafxh1dFuykoWaAt7HiMOGgWXRvAN5V
+● Agile & Scrum – знакомство и легкое погружение - https://www.youtube.com/watch?v=2uFA3f74D0Q
+● Тестирование. Основные понятия обеспечения качества - https://www.youtube.com/watch?v=8dcBkeYdp1w&list=PLrCZzMib1e9pDKLsabJYuODdVJrHYc4Jd&index=3
+● Тестирование. Тестовая документация - https://www.youtube.com/watch?v=cHysXyQrqAw&list=PLrCZzMib1e9pDKLsabJYuODdVJrHYc4Jd&index=6
+● Тестирование. Дефекты - https://www.youtube.com/watch?v=7mv51N_TgWk&list=PLrCZzMib1e9pDKLsabJYuODdVJrHYc4Jd&index=5
+● Тестирование. Тестовое покрытие - https://www.youtube.com/watch?v=jJdaC-NF6F8&list=PLrCZzMib1e9pDKLsabJYuODdVJrHYc4Jd&index=8
+● Тестирование. Тест-дизайн - https://www.youtube.com/watch?v=R0l9ncLEdCQ&list=PLrCZzMib1e9pDKLsabJYuODdVJrHYc4Jd&index=7
+● Курс Тестирование ПО. Занятие 13. Тестовые Артефакты | QA START UP - https://www.youtube.com/watch?v=9U3UbDR9ivE&list=PLRs8EELOYKc7DYIQixlV1s4EH5SR3TdNB&index=14
+● ОПИ (МиСПО) #4. Управление изменениям, системы контроля версий - https://www.youtube.com/watch?v=-i5zCy0_EnA&list=PLBWafxh1dFuykoWaAt7HiMOGgWXRvAN5V&index=5
+● ОПИ (МиСПО) #5 (week 6). Системы автоматической сборки - https://www.youtube.com/watch?v=RFgqHUx7cgs&list=PLBWafxh1dFuykoWaAt7HiMOGgWXRvAN5V&index=6
+● 11. Мобильная разработка. Проектирование интерфейсов | Технострим - https://www.youtube.com/watch?v=KbZ1tFjnywo
+● Выбор и проектирование архитектуры информационной системы. Лекция 4. - https://www.youtube.com/watch?v=YuyaBAL5iiY
+● Паттерны проектирования. Порождающие шаблоны. - https://www.youtube.com/watch?v=xlAoawAYYjg&list=PLUBJFiQDC6f9CuTJP2Qu-d860vqDlFEip&index=5
+● Паттерны проектирования. Структурные шаблоны. - https://www.youtube.com/watch?v=KEW8g9FPWqI
+● Паттерны проектирования. Поведенческие шаблоны. - https://www.youtube.com/watch?v=ODzC_ZUfpTc&list=PLUBJFiQDC6f9CuTJP2Qu-d860vqDlFEip&index=3
+● Проектирование информационных систем - https://www.youtube.com/playlist?list=PLMDuaURn3VibR0KEhlr5UK5onB9_J1tGn
+● Моделирование в нотации IDEF0: инженерная или эскизная модель - https://www.youtube.com/watch?v=GSEZjXpWBB4&t=1171s
+● Тестирование в .NET - .NET | Microsoft Learn - https://learn.microsoft.com/ru-ru/dotnet/core/testing/#testing-tools
+● Основы модульного теста с помощью обозревателя тестов - Visual Studio (Windows) | Microsoft Learn - https://learn.microsoft.com/ru-ru/visualstudio/test/unit-test-basics?view=visualstudio&viewFallbackFrom=vs-2019
+● Create models for your app - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/ru-ru/previous-versions/visualstudio/visual-studio-2015/modeling/create-models-for-your-app?view=vs-2015
+● Как сэкономить на психотерапевте используя test-driven development / Хабр - https://habr.com/ru/companies/lemana_tech/articles/456662/
+● Каталог паттернов проектирования - https://refactoring.guru/ru/design-patterns/catalog
+● Книга «Тестирование программного обеспечения. Базовый курс.» | Хроники детерминированности - https://svyatoslav.biz/software_testing_book/
+● MSTest v2: Data tests - Meziantou's blog - https://www.meziantou.net/mstest-v2-data-tests.htm
+● BPMN 2.0 Reference | Astelica Consulting - https://astelica.ru/ru_bpmn_reference#rec1252266916
+● Entity Framework Core Tutorials - https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
+● Моделирование бизнес-процессов в нотации BPMN - Deep Vision - https://deep-vision.one/knowledge/bpmn-prakticheskoe-modelirovanie/
+● Этапы разработки интерфейса — Саша Тихонов — Дизайн-кабак - https://designpub.ru/etapy-razrabotki-interfeisa-baf666d6ad8f
+● Отношения между классами и объектами | Паттерны в C# и .NET - https://metanit.com/sharp/patterns/1.2.php

@@ -27,3 +27,8 @@
 ● Моделирование бизнес-процессов в нотации BPMN - Deep Vision - https://deep-vision.one/knowledge/bpmn-prakticheskoe-modelirovanie/
 ● Этапы разработки интерфейса — Саша Тихонов — Дизайн-кабак - https://designpub.ru/etapy-razrabotki-interfeisa-baf666d6ad8f
 ● Отношения между классами и объектами | Паттерны в C# и .NET - https://metanit.com/sharp/patterns/1.2.php
+● UML Use Case Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/uml-use-case-diagrams-reference?view=vs-2015#structuring-use-cases
+● UML Activity Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/uml-activity-diagrams-reference?view=vs-2015#simple-control-flows
+● UML Sequence Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/uml-sequence-diagrams-reference?view=vs-2015
+● Диаграмма последовательности Синтаксис и функции - https://plantuml.com/ru/sequence-diagram
+● Использование диаграммы классов UML при проектировании и документировании программного обеспечения / Хабр - https://habr.com/ru/articles/572234/#ClassDiagramPurpose

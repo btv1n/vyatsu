@@ -23,6 +23,8 @@
 ● Книга «Тестирование программного обеспечения. Базовый курс.» | Хроники детерминированности - https://svyatoslav.biz/software_testing_book/
 ● MSTest v2: Data tests - Meziantou's blog - https://www.meziantou.net/mstest-v2-data-tests.htm
 ● BPMN 2.0 Reference | Astelica Consulting - https://astelica.ru/ru_bpmn_reference#rec1252266916
+● Паттерны проектирования - https://ppt-online.org/863500
+● Шпаргалка по шаблонам проектирования / Хабр - https://habr.com/ru/articles/210288/
 ● Entity Framework Core Tutorials - https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
 ● Моделирование бизнес-процессов в нотации BPMN - Deep Vision - https://deep-vision.one/knowledge/bpmn-prakticheskoe-modelirovanie/
 ● Этапы разработки интерфейса — Саша Тихонов — Дизайн-кабак - https://designpub.ru/etapy-razrabotki-interfeisa-baf666d6ad8f

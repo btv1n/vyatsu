@@ -15,11 +15,13 @@
 ● Паттерны проектирования. Поведенческие шаблоны. - https://www.youtube.com/watch?v=ODzC_ZUfpTc&list=PLUBJFiQDC6f9CuTJP2Qu-d860vqDlFEip&index=3
 ● Проектирование информационных систем - https://www.youtube.com/playlist?list=PLMDuaURn3VibR0KEhlr5UK5onB9_J1tGn
 ● Моделирование в нотации IDEF0: инженерная или эскизная модель - https://www.youtube.com/watch?v=GSEZjXpWBB4&t=1171s
+● Паттерны проектирования (Georgiy Mogelashvili) - https://www.youtube.com/playlist?list=PLZSPcxXPEZVrCueHR5A2guSOjYxByqVom
 ● Тестирование в .NET - .NET | Microsoft Learn - https://learn.microsoft.com/ru-ru/dotnet/core/testing/#testing-tools
 ● Основы модульного теста с помощью обозревателя тестов - Visual Studio (Windows) | Microsoft Learn - https://learn.microsoft.com/ru-ru/visualstudio/test/unit-test-basics?view=visualstudio&viewFallbackFrom=vs-2019
 ● Create models for your app - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/ru-ru/previous-versions/visualstudio/visual-studio-2015/modeling/create-models-for-your-app?view=vs-2015
 ● Как сэкономить на психотерапевте используя test-driven development / Хабр - https://habr.com/ru/companies/lemana_tech/articles/456662/
 ● Каталог паттернов проектирования - https://refactoring.guru/ru/design-patterns/catalog
+● Паттерны/шаблоны проектирования - https://refactoringu.ru/ru/design-patterns.html
 ● Книга «Тестирование программного обеспечения. Базовый курс.» | Хроники детерминированности - https://svyatoslav.biz/software_testing_book/
 ● MSTest v2: Data tests - Meziantou's blog - https://www.meziantou.net/mstest-v2-data-tests.htm
 ● BPMN 2.0 Reference | Astelica Consulting - https://astelica.ru/ru_bpmn_reference#rec1252266916
@@ -28,7 +30,13 @@
 ● Entity Framework Core Tutorials - https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx
 ● Моделирование бизнес-процессов в нотации BPMN - Deep Vision - https://deep-vision.one/knowledge/bpmn-prakticheskoe-modelirovanie/
 ● Этапы разработки интерфейса — Саша Тихонов — Дизайн-кабак - https://designpub.ru/etapy-razrabotki-interfeisa-baf666d6ad8f
-● Отношения между классами и объектами | Паттерны в C# и .NET - https://metanit.com/sharp/patterns/1.2.php
+● Отношения между классами и объектами | Паттерны в C# и .NET - https://metanit.com/sharp/patterns/
+● Unified Modeling Language (UML) description, UML diagram examples, tutorials and reference for all types of UML diagrams - use case diagrams, class, package, component, composite structure diagrams, deployments, activities, interactions, profiles, etc. - https://www.uml-diagrams.org/
+● Оценка качества программного обеспечения вычислительных систем - https://tstu.ru/book/elib3/mm/2015/loskutov/pages/4_3_1_metod_pokrytija_operatorov.html
+● Тестирование в .NET. Часть 2 — MSTest | DEV - https://dev.koshovyi.com/2021/01/21/testirovanie-v-net-chast-2-mstest/
+● Component Diagram Tutorial - https://online.visual-paradigm.com/ru/diagrams/tutorials/component-diagram-tutorial/
+● Describe control flow with fragments on UML sequence diagrams - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/ru-ru/previous-versions/visualstudio/visual-studio-2015/modeling/describe-control-flow-with-fragments-on-uml-sequence-diagrams?view=vs-2015
+● UML Class Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/ru-ru/previous-versions/visualstudio/visual-studio-2015/modeling/uml-class-diagrams-reference?view=vs-2015
 ● UML Use Case Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/uml-use-case-diagrams-reference?view=vs-2015#structuring-use-cases
 ● UML Activity Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/uml-activity-diagrams-reference?view=vs-2015#simple-control-flows
 ● UML Sequence Diagrams: Reference - Visual Studio 2015 | Microsoft Learn - https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/modeling/uml-sequence-diagrams-reference?view=vs-2015

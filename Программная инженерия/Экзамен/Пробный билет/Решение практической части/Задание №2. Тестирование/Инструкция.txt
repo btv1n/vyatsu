@@ -1,0 +1,37 @@
+Создание проекта с тестами:
+
+1. Библиотека классов (Майкрософт) "FunctionApp"
+2. Решение -> Добавить -> Создать проект
+3. Тестовый проект NUnit3 "FunctionAppTests" ИЛИ Тестовый проект xUnit (Майкрософт)
+4. FunctionAppTests -> Зависимости -> Добавить ссылку на проект
+
+
+AAA тест:
+
+Arrange - подготовка
+var calculator = new Calculator();
+double x = 9;
+
+Act - действие
+double result = calculator.Calculate(x);
+
+Assert - проверка
+Assert.Equal(1, result);
+
+
+Параметризованный тест с правильным названием:
+
+[TestCase(11, -1)]
+[TestCase(20, -0.1)]
+[TestCase(12, -0.5)]
+public void Calculate_WhenXIsGreateThan10_ReturnNegative(double x, double expected)
+{
+    // Arrange
+    var calculated = new FunctionCalculator();
+
+    // Act
+    var result = calculated.Calculator(x);
+
+    // Assert
+    Assert.That(result, Is.EqualTo(expected));
+}

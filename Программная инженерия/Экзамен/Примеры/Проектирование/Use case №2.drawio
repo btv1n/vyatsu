@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-03-04T11:33:54.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="vv7kNFcCakx2wG9s-qmY" version="23.1.5" type="device">
+  <diagram name="Страница — 1" id="GxFD1mZSDo2Y0Kg1KCVd">
+    <mxGraphModel dx="1647" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="125" y="17" width="350" height="1129" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-1" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-96" y="216" width="62" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-12" value="Добавка часов пользователю по логину" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="46" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-1" target="bfpdQDivz4l5PNjtOz6T-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="81" y="218" as="sourcePoint" />
+            <mxPoint x="176" y="188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-15" value="Регистрация нового пользователя" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="141" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-1" target="bfpdQDivz4l5PNjtOz6T-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="83" y="231" as="sourcePoint" />
+            <mxPoint x="241" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-17" value="Мониторинг игрового зала (просмотр статуса компьютеров: занят или свободен;&lt;br&gt;в случае, если компьютер кем-то занят, можно посмотреть, сколько времени осталось у пользователя, занявшего данное место)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="230" width="128" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-18" value="Снятие компьютера с блокировки в случае, если пользователь заплатил или если у него остались часы с предыдущего сеанса" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="440" width="128" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-19" value="Просмотр оставшегося времени" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="238" y="662" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-20" value="Клиент&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="459" width="62" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-22" value="Приложение" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="133" y="26" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-1" target="bfpdQDivz4l5PNjtOz6T-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="93" y="241" as="sourcePoint" />
+            <mxPoint x="247" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-1" target="bfpdQDivz4l5PNjtOz6T-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-64" y="451" as="sourcePoint" />
+            <mxPoint x="90" y="411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-25" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-20" target="bfpdQDivz4l5PNjtOz6T-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="534" y="341" as="sourcePoint" />
+            <mxPoint x="688" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-26" value="Уведомление о том, что осталось мало времени" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="750" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-27" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-20" target="bfpdQDivz4l5PNjtOz6T-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="733" y="508" as="sourcePoint" />
+            <mxPoint x="375" y="581" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-43" value="Взаимодействие с учётной записью" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="237" y="842" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="bfpdQDivz4l5PNjtOz6T-44" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bfpdQDivz4l5PNjtOz6T-20" target="bfpdQDivz4l5PNjtOz6T-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="666" y="676" as="sourcePoint" />
+            <mxPoint x="380" y="791" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-1" value="Администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="802" width="62" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-3" value="Просмотр истории операций" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="948" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-4" value="Создание учётных записей для администраторов и их удаление" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="1035" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="NUg0v2vvY27rH9ZkcenH-1" target="NUg0v2vvY27rH9ZkcenH-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="805" as="sourcePoint" />
+            <mxPoint x="145" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="NUg0v2vvY27rH9ZkcenH-1" target="NUg0v2vvY27rH9ZkcenH-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="805" as="sourcePoint" />
+            <mxPoint x="145" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-8" value="Вход в учётную запись администратора и выход из неё" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="236" y="560" width="128" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NUg0v2vvY27rH9ZkcenH-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="bfpdQDivz4l5PNjtOz6T-1" target="NUg0v2vvY27rH9ZkcenH-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307" y="485" as="sourcePoint" />
+            <mxPoint x="357" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

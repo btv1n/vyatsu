@@ -33,6 +33,7 @@
 - 🔢 Математические основы информатики 🔢
 - 😇 Информационные технологии 😇
 - ⚰️ Программная инженерия ⚰️
+- 🛡️ Методы защиты информации 🛡️
 
 ## Аналогичные репозитории
 - [DaniilSavin / vyatsu-fkfmn-favt](https://github.com/DaniilSavin/vyatsu-fkfmn-favt/tree/main)

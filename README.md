@@ -40,6 +40,10 @@
 - [Monahov-Artem-WG / vyatsu-study-materials](https://github.com/Monahov-Artem-WG/vyatsu-study-materials/tree/master)
 - [danilbushkov / vyatsu](https://github.com/danilbushkov/vyatsu/tree/main)
 - [kr-ilya / vyatsu](https://github.com/kr-ilya/vyatsu/tree/main)
+- [Nowkiie / vyatsu_material](https://github.com/Nowkiie/vyatsu_material)
+- [smileyfaceskobochka / CompSci](https://github.com/smileyfaceskobochka/CompSci)
+- [parzival-2077 / vyatsu_starter_kit](https://github.com/parzival-2077/vyatsu_starter_kit/tree/main)
+- [alirzaev / vyatsu-study-materials](https://github.com/alirzaev/vyatsu-study-materials/tree/master)
 
 ---
 

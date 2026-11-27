@@ -1,7 +1,7 @@
 # vyatsu
 Готовые работы ФКиФМН ВятГУ
 
-## Дисциплины:
+## Дисциплины
 - 🦐 Архитектура вычислительных систем (Multisim) 🦐
 - 💊 Классические алгоритмы и структуры данных 💊
 - 🤡 Практика - Timus Online Judge 🤡
@@ -33,3 +33,12 @@
 - 🔢 Математические основы информатики 🔢
 - 😇 Информационные технологии 😇
 - ⚰️ Программная инженерия ⚰️
+
+## Аналогичные репозитории
+- [DaniilSavin / vyatsu-fkfmn-favt](https://github.com/DaniilSavin/vyatsu-fkfmn-favt/tree/main)
+- [Nellrun / VyatSU](https://github.com/Nellrun/VyatSU/tree/master)
+- [Monahov-Artem-WG / vyatsu-study-materials](https://github.com/Monahov-Artem-WG/vyatsu-study-materials/tree/master)
+- [danilbushkov / vyatsu](https://github.com/danilbushkov/vyatsu/tree/main)
+- [kr-ilya / vyatsu](https://github.com/kr-ilya/vyatsu/tree/main)
+
+✉️ **Есть идеи или материалы? Пишите на почту:** [my.digital.amalgam@gmail.com](mailto:my.digital.amalgam@gmail.com)

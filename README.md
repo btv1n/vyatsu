@@ -41,4 +41,7 @@
 - [danilbushkov / vyatsu](https://github.com/danilbushkov/vyatsu/tree/main)
 - [kr-ilya / vyatsu](https://github.com/kr-ilya/vyatsu/tree/main)
 
-✉️ **Есть идеи или материалы? Пишите на почту:** [my.digital.amalgam@gmail.com](mailto:my.digital.amalgam@gmail.com)
+---
+
+> [!NOTE]  
+> ✉️ **Есть идеи или материалы? Пишите на почту:** [my.digital.amalgam@gmail.com](mailto:my.digital.amalgam@gmail.com)

@@ -35,6 +35,7 @@
 - ⚰️ Программная инженерия ⚰️
 - 🛡️ Методы защиты информации 🛡️
 - 🤖 Автоматическая обработка текстов – NLP 🤖
+- 🕸️ Теория алгоритмов 🕸️
 
 ## Аналогичные репозитории
 - [DaniilSavin / vyatsu-fkfmn-favt](https://github.com/DaniilSavin/vyatsu-fkfmn-favt/tree/main)
